@@ -1,0 +1,2285 @@
+Membre d'archive inclu pour satisfaire la référence par fichier (symbole)
+
+freertos/vendors/gwt/gap9/libfreertos_gap9.a(startup_gap9.S.obj)
+                              (_start)
+freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj)
+                              freertos/vendors/gwt/gap9/libfreertos_gap9.a(startup_gap9.S.obj) (system_init)
+freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap_io.c.obj)
+                              freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj) (system_exit_printf_flush)
+freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_iet.S.obj)
+                              freertos/vendors/gwt/gap9/libfreertos_gap9.a(startup_gap9.S.obj) (mcause_check)
+freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+                              freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap_io.c.obj) (vSetPendSV)
+freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+                              freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj) (__pi_timer_conf_init)
+freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer_asm.S.obj)
+                              freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj) (__pi_timer_fc_0_1_irq_handler)
+freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(asm_util.S.obj)
+                              freertos/vendors/gwt/gap9/libfreertos_gap9.a(startup_gap9.S.obj) (ASM_FUNC_SAVE_MINIMAL_CONTEXT)
+freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(fc_event.c.obj)
+                              freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_iet.S.obj) (fc_soc_event_handler)
+freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(ctors_dtors.c.obj)
+                              freertos/vendors/gwt/gap9/libfreertos_gap9.a(startup_gap9.S.obj) (__do_ctors__)
+freertos/vendors/gwt/libs/libfreertos_libs.a(stdlib.c.obj)
+                              CMakeFiles/helloworld.dir/helloworld.c.obj (exit)
+freertos/vendors/gwt/libs/libfreertos_libs.a(string.c.obj)
+                              freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap_io.c.obj) (memset)
+freertos/pmsis/implem/libpmsis_implem.a(fll.c.obj)
+                              freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj) (__pi_fll_init_all)
+freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj)
+                              freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap_io.c.obj) (__pi_pmu_domains_on)
+freertos/pmsis/implem/libpmsis_implem.a(maestro_irq.c.obj)
+                              freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_iet.S.obj) (__pi_pmu_scu_handler)
+freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+                              freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj) (pi_fc_l1_free)
+freertos/pmsis/implem/libpmsis_implem.a(pi_malloc.c.obj)
+                              freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj) (pi_malloc_init)
+freertos/pmsis/implem/libpmsis_implem.a(cluster-cc.S.obj)
+                              freertos/vendors/gwt/gap9/libfreertos_gap9.a(startup_gap9.S.obj) (pi_cl_entry)
+freertos/pmsis/implem/libpmsis_implem.a(cluster.c.obj)
+                              freertos/pmsis/implem/libpmsis_implem.a(cluster-cc.S.obj) (pi_cluster)
+freertos/pmsis/implem/libpmsis_implem.a(cluster-pe-team.S.obj)
+                              freertos/pmsis/implem/libpmsis_implem.a(cluster-cc.S.obj) (pi_cl_pe_entry)
+freertos/pmsis/implem/libpmsis_implem.a(cluster-pe-workgroup.S.obj)
+                              freertos/pmsis/implem/libpmsis_implem.a(cluster.c.obj) (__pi_cl_workitem_exit)
+freertos/pmsis/implem/libpmsis_implem.a(udma_core.c.obj)
+                              freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj) (__pi_udma_chan_fifo)
+freertos/pmsis/implem/libpmsis_implem.a(alloc.c.obj)
+                              freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj) (pos_alloc_dump)
+freertos/pmsis/bsp/libbsp.a(bsp.c.obj)
+                              freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj) (pi_bsp_init)
+freertos/vendors/gwt/libs/printf/libfreertos_printf.a(printf.c.obj)
+                              CMakeFiles/helloworld.dir/helloworld.c.obj (printf_)
+freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(device.c.obj)
+                              CMakeFiles/helloworld.dir/helloworld.c.obj (pi_open_from_conf)
+freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(pmsis_evt.c.obj)
+                              freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj) (__pi_evt_sig_init)
+freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(event_kernel.c.obj)
+                              freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj) (pi_evt_kernel_push_event)
+freertos/vendors/gwt/pmsis/backend/libfreertos_pmsis_backend.a(pmsis_backend_native_task_api.c.obj)
+                              freertos/vendors/gwt/gap9/libfreertos_gap9.a(startup_gap9.S.obj) (__os_init)
+freertos/libfreertos.a(queue.c.obj)
+                              freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap_io.c.obj) (xQueueGenericSend)
+freertos/libfreertos.a(tasks.c.obj)
+                              freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(event_kernel.c.obj) (prxTaskGetHandler)
+freertos/libfreertos.a(freertos_task.S.obj)
+                              freertos/libfreertos.a(tasks.c.obj) (__pi_current_stack_usage_get)
+freertos/libfreertos.a(FreeRTOS_util.c.obj)
+                              freertos/libfreertos.a(tasks.c.obj) (vApplicationIdleHook)
+freertos/libfreertos.a(list.c.obj)
+                              freertos/libfreertos.a(queue.c.obj) (vListInitialise)
+freertos/freertos_kernel/portable/GCC/RI5CY-GAP9/libri5cy-gap9.a(port_asm.S.obj)
+                              freertos/libfreertos.a(tasks.c.obj) (xPortStartScheduler)
+freertos/freertos_kernel/portable/GCC/RI5CY-GAP9/libri5cy-gap9.a(port.c.obj)
+                              freertos/libfreertos.a(tasks.c.obj) (pxPortInitialiseStack)
+freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(pad.c.obj)
+                              freertos/pmsis/bsp/libbsp.a(bsp.c.obj) (pi_pad_init)
+/usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/rv32imcxgap9/ilp32/libgcc.a(_ctors.o)
+                              freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(ctors_dtors.c.obj) (__DTOR_LIST__)
+
+Allocation des symboles communs
+Symbole commun      taille            fichier
+
+tskState_e          0x4               CMakeFiles/helloworld.dir/helloworld.c.obj
+__pi_pmu_domains_on
+                    0x4               freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj)
+pi_exception_vector
+                    0x40              freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+xQueueRegistry      0x40              freertos/libfreertos.a(queue.c.obj)
+pos_alloc_l1        0x18              freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+pi_cluster          0x2c              freertos/pmsis/implem/libpmsis_implem.a(cluster.c.obj)
+sys_timer_hi_prec   0xc               freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj)
+pos_alloc_l2        0x30              freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+pi_irq_handler_wrapper_vector
+                    0x80              freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+
+Sections d'entrée éliminées
+
+ .text          0x0000000000000000        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ COMMON         0x0000000000000000        0x4 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .text          0x0000000000000000        0x0 freertos/vendors/gwt/gap9/libfreertos_gap9.a(startup_gap9.S.obj)
+ .data          0x0000000000000000        0x0 freertos/vendors/gwt/gap9/libfreertos_gap9.a(startup_gap9.S.obj)
+ .bss           0x0000000000000000        0x0 freertos/vendors/gwt/gap9/libfreertos_gap9.a(startup_gap9.S.obj)
+ .text          0x0000000000000000        0x0 freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj)
+ .bss           0x0000000000000000        0x0 freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj)
+ .text.system_core_clock_get
+                0x0000000000000000        0xa freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj)
+ .text.system_usermode_entry
+                0x0000000000000000       0x44 freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj)
+ .text          0x0000000000000000        0x0 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap_io.c.obj)
+ .data          0x0000000000000000        0x0 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap_io.c.obj)
+ .bss           0x0000000000000000        0x0 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap_io.c.obj)
+ .text.printf_uart_close
+                0x0000000000000000        0x2 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap_io.c.obj)
+ .text          0x0000000000000000        0x0 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_iet.S.obj)
+ .data          0x0000000000000000        0x0 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_iet.S.obj)
+ .bss           0x0000000000000000        0x0 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_iet.S.obj)
+ .text          0x0000000000000000        0x0 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+ .data          0x0000000000000000        0x0 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+ .bss           0x0000000000000000        0x0 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+ .text.HardFault_Handler
+                0x0000000000000000        0x2 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+ .text.uTaskCheckQuantum
+                0x0000000000000000       0x48 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+ .text.procid   0x0000000000000000       0x24 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+ .text.clusterid
+                0x0000000000000000       0x24 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+ .text.xip_irq_handler
+                0x0000000000000000       0x78 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+ .rodata.xip_irq_handler.str1.4
+                0x0000000000000000       0x33 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+ .sbss.__pending_task_switch
+                0x0000000000000000        0x1 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+ .sbss.g_xip_irq_user_handler
+                0x0000000000000000        0x4 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+ .text          0x0000000000000000        0x0 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+ .data          0x0000000000000000        0x0 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+ .bss           0x0000000000000000        0x0 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+ .text.__pi_timer_reset
+                0x0000000000000000       0x2e freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+ .text.__pi_timer_start
+                0x0000000000000000       0x2c freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+ .text.__pi_timer_src_set
+                0x0000000000000000       0xa8 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+ .text.pi_timer_value_read
+                0x0000000000000000       0x2a freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+ .text.pi_timer_irq_set
+                0x0000000000000000       0x78 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+ .text.pi_timer_clock_freq_get
+                0x0000000000000000        0xc freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+ .text.pi_timer_close
+                0x0000000000000000       0x56 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+ .text.pi_timer_stop
+                0x0000000000000000       0x2a freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+ .text.pi_timer_reset
+                0x0000000000000000       0x2a freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+ .text.pi_timer_current_value_read
+                0x0000000000000000       0x22 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+ .text.pi_timer_task_add
+                0x0000000000000000       0xb0 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+ .text.pi_timer_task_remove
+                0x0000000000000000       0x4c freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+ .text.pi_timer_ioctl
+                0x0000000000000000       0xa0 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+ .rodata.pi_timer_irq_set.cst4
+                0x0000000000000000        0x8 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+ .text          0x0000000000000000        0x0 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer_asm.S.obj)
+ .data          0x0000000000000000        0x0 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer_asm.S.obj)
+ .bss           0x0000000000000000        0x0 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer_asm.S.obj)
+ .text          0x0000000000000000        0x0 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(asm_util.S.obj)
+ .data          0x0000000000000000        0x0 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(asm_util.S.obj)
+ .bss           0x0000000000000000        0x0 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(asm_util.S.obj)
+ .data          0x0000000000000000        0x0 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(fc_event.c.obj)
+ .bss           0x0000000000000000        0x0 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(fc_event.c.obj)
+ .text          0x0000000000000000        0x0 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(ctors_dtors.c.obj)
+ .data          0x0000000000000000        0x0 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(ctors_dtors.c.obj)
+ .bss           0x0000000000000000        0x0 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(ctors_dtors.c.obj)
+ .data          0x0000000000000000        0x0 freertos/vendors/gwt/libs/libfreertos_libs.a(stdlib.c.obj)
+ .bss           0x0000000000000000        0x0 freertos/vendors/gwt/libs/libfreertos_libs.a(stdlib.c.obj)
+ .data          0x0000000000000000        0x0 freertos/vendors/gwt/libs/libfreertos_libs.a(string.c.obj)
+ .bss           0x0000000000000000        0x0 freertos/vendors/gwt/libs/libfreertos_libs.a(string.c.obj)
+ .text          0x0000000000000000        0x0 freertos/pmsis/implem/libpmsis_implem.a(fll.c.obj)
+ .data          0x0000000000000000        0x0 freertos/pmsis/implem/libpmsis_implem.a(fll.c.obj)
+ .bss           0x0000000000000000        0x0 freertos/pmsis/implem/libpmsis_implem.a(fll.c.obj)
+ .text          0x0000000000000000        0x0 freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj)
+ .bss           0x0000000000000000        0x0 freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj)
+ .text.__pi_pmu_change_domain_power
+                0x0000000000000000       0x38 freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj)
+ .text.__pi_pmu_cluster_power_down
+                0x0000000000000000       0x24 freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj)
+ .text.pi_pmu_wakeup_fll_settings
+                0x0000000000000000       0x18 freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj)
+ .text.pi_pmu_wakeup_sequence
+                0x0000000000000000       0x3e freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj)
+ .text.pi_pmu_wakeup_control
+                0x0000000000000000       0x6c freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj)
+ .text.pi_pmu_set_state
+                0x0000000000000000       0x18 freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj)
+ .text.pi_pad_sleep_cfg_force
+                0x0000000000000000       0x1a freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj)
+ .text.pi_pmu_voltage_set
+                0x0000000000000000       0xa0 freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj)
+ .text.pi_pmu_abb_set
+                0x0000000000000000      0x1e8 freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj)
+ .rodata.pi_pmu_abb_set.str1.4
+                0x0000000000000000       0x78 freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj)
+ .text          0x0000000000000000        0x0 freertos/pmsis/implem/libpmsis_implem.a(maestro_irq.c.obj)
+ .data          0x0000000000000000        0x0 freertos/pmsis/implem/libpmsis_implem.a(maestro_irq.c.obj)
+ .bss           0x0000000000000000        0x0 freertos/pmsis/implem/libpmsis_implem.a(maestro_irq.c.obj)
+ .text          0x0000000000000000        0x0 freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+ .data          0x0000000000000000        0x0 freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+ .bss           0x0000000000000000        0x0 freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+ .text.pos_alloc_cluster
+                0x0000000000000000       0x48 freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+ .text.pos_free_cluster
+                0x0000000000000000       0x4a freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+ .text.pi_cl_l2_malloc
+                0x0000000000000000        0xe freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+ .text.pi_cl_l2_free
+                0x0000000000000000       0x10 freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+ .text.pos_free_cluster_req
+                0x0000000000000000       0x40 freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+ .text.pi_l2_ret_ctrl
+                0x0000000000000000        0x2 freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+ .text.pi_l2_pwd_ctrl
+                0x0000000000000000        0x2 freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+ .text.pi_l2_available_get
+                0x0000000000000000       0x2a freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+ .text.pi_fc_l1_available_get
+                0x0000000000000000       0x2a freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+ .text.pos_alloc_cluster_req
+                0x0000000000000000       0x40 freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+ .text.pi_fc_l1_malloc
+                0x0000000000000000       0x58 freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+ .text.pi_cl_l1_available_get
+                0x0000000000000000       0x2a freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+ .text.pi_cl_l1_malloc_dump
+                0x0000000000000000       0x10 freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+ .text          0x0000000000000000        0x0 freertos/pmsis/implem/libpmsis_implem.a(pi_malloc.c.obj)
+ .data          0x0000000000000000        0x0 freertos/pmsis/implem/libpmsis_implem.a(pi_malloc.c.obj)
+ .bss           0x0000000000000000        0x0 freertos/pmsis/implem/libpmsis_implem.a(pi_malloc.c.obj)
+ .text.pi_malloc_align
+                0x0000000000000000        0x4 freertos/pmsis/implem/libpmsis_implem.a(pi_malloc.c.obj)
+ .text.pi_malloc_dump
+                0x0000000000000000       0x18 freertos/pmsis/implem/libpmsis_implem.a(pi_malloc.c.obj)
+ .text          0x0000000000000000        0x0 freertos/pmsis/implem/libpmsis_implem.a(cluster-cc.S.obj)
+ .data          0x0000000000000000        0x0 freertos/pmsis/implem/libpmsis_implem.a(cluster-cc.S.obj)
+ .bss           0x0000000000000000        0x0 freertos/pmsis/implem/libpmsis_implem.a(cluster-cc.S.obj)
+ .text          0x0000000000000000        0x0 freertos/pmsis/implem/libpmsis_implem.a(cluster.c.obj)
+ .bss           0x0000000000000000        0x0 freertos/pmsis/implem/libpmsis_implem.a(cluster.c.obj)
+ .text.pi_cl_l1_scratch_alloc
+                0x0000000000000000       0x1e freertos/pmsis/implem/libpmsis_implem.a(cluster.c.obj)
+ .text.pi_cl_l1_scratch_free
+                0x0000000000000000        0xa freertos/pmsis/implem/libpmsis_implem.a(cluster.c.obj)
+ .text.pi_cluster_enqueue_task_async
+                0x0000000000000000       0x42 freertos/pmsis/implem/libpmsis_implem.a(cluster.c.obj)
+ .text.pi_cluster_send_tasklet
+                0x0000000000000000       0x34 freertos/pmsis/implem/libpmsis_implem.a(cluster.c.obj)
+ .text.pi_cluster_enqueue_task
+                0x0000000000000000       0x3c freertos/pmsis/implem/libpmsis_implem.a(cluster.c.obj)
+ .text.pi_cl_workitem_disable
+                0x0000000000000000       0x8c freertos/pmsis/implem/libpmsis_implem.a(cluster.c.obj)
+ .text          0x0000000000000000        0x0 freertos/pmsis/implem/libpmsis_implem.a(cluster-pe-team.S.obj)
+ .data          0x0000000000000000        0x0 freertos/pmsis/implem/libpmsis_implem.a(cluster-pe-team.S.obj)
+ .bss           0x0000000000000000        0x0 freertos/pmsis/implem/libpmsis_implem.a(cluster-pe-team.S.obj)
+ .text          0x0000000000000000        0x0 freertos/pmsis/implem/libpmsis_implem.a(cluster-pe-workgroup.S.obj)
+ .data          0x0000000000000000        0x0 freertos/pmsis/implem/libpmsis_implem.a(cluster-pe-workgroup.S.obj)
+ .bss           0x0000000000000000        0x0 freertos/pmsis/implem/libpmsis_implem.a(cluster-pe-workgroup.S.obj)
+ .cluster.text  0x0000000000000000       0xa2 freertos/pmsis/implem/libpmsis_implem.a(cluster-pe-workgroup.S.obj)
+ .Pulp_Chip.Info
+                0x0000000000000000        0x0 freertos/pmsis/implem/libpmsis_implem.a(cluster-pe-workgroup.S.obj)
+ .debug_line    0x0000000000000000      0x196 freertos/pmsis/implem/libpmsis_implem.a(cluster-pe-workgroup.S.obj)
+ .debug_info    0x0000000000000000       0xe1 freertos/pmsis/implem/libpmsis_implem.a(cluster-pe-workgroup.S.obj)
+ .debug_abbrev  0x0000000000000000       0x14 freertos/pmsis/implem/libpmsis_implem.a(cluster-pe-workgroup.S.obj)
+ .debug_aranges
+                0x0000000000000000       0x20 freertos/pmsis/implem/libpmsis_implem.a(cluster-pe-workgroup.S.obj)
+ .text          0x0000000000000000        0x0 freertos/pmsis/implem/libpmsis_implem.a(udma_core.c.obj)
+ .data          0x0000000000000000        0x0 freertos/pmsis/implem/libpmsis_implem.a(udma_core.c.obj)
+ .bss           0x0000000000000000        0x0 freertos/pmsis/implem/libpmsis_implem.a(udma_core.c.obj)
+ .data.udma_chan_str
+                0x0000000000000000        0xc freertos/pmsis/implem/libpmsis_implem.a(udma_core.c.obj)
+ .rodata.str1.4
+                0x0000000000000000       0x24 freertos/pmsis/implem/libpmsis_implem.a(udma_core.c.obj)
+ .text          0x0000000000000000        0x0 freertos/pmsis/implem/libpmsis_implem.a(alloc.c.obj)
+ .data          0x0000000000000000        0x0 freertos/pmsis/implem/libpmsis_implem.a(alloc.c.obj)
+ .bss           0x0000000000000000        0x0 freertos/pmsis/implem/libpmsis_implem.a(alloc.c.obj)
+ .text.pos_alloc_info
+                0x0000000000000000       0x26 freertos/pmsis/implem/libpmsis_implem.a(alloc.c.obj)
+ .text.pos_alloc_available_get
+                0x0000000000000000       0x1a freertos/pmsis/implem/libpmsis_implem.a(alloc.c.obj)
+ .text.pos_alloc_align
+                0x0000000000000000       0x9e freertos/pmsis/implem/libpmsis_implem.a(alloc.c.obj)
+ .text          0x0000000000000000        0x0 freertos/pmsis/bsp/libbsp.a(bsp.c.obj)
+ .data          0x0000000000000000        0x0 freertos/pmsis/bsp/libbsp.a(bsp.c.obj)
+ .bss           0x0000000000000000        0x0 freertos/pmsis/bsp/libbsp.a(bsp.c.obj)
+ .text          0x0000000000000000        0x0 freertos/vendors/gwt/libs/printf/libfreertos_printf.a(printf.c.obj)
+ .data          0x0000000000000000        0x0 freertos/vendors/gwt/libs/printf/libfreertos_printf.a(printf.c.obj)
+ .bss           0x0000000000000000        0x0 freertos/vendors/gwt/libs/printf/libfreertos_printf.a(printf.c.obj)
+ .text._out_buffer
+                0x0000000000000000        0xa freertos/vendors/gwt/libs/printf/libfreertos_printf.a(printf.c.obj)
+ .text._out_fct
+                0x0000000000000000        0xc freertos/vendors/gwt/libs/printf/libfreertos_printf.a(printf.c.obj)
+ .text.sprintf_
+                0x0000000000000000       0x30 freertos/vendors/gwt/libs/printf/libfreertos_printf.a(printf.c.obj)
+ .text.snprintf_
+                0x0000000000000000       0x2e freertos/vendors/gwt/libs/printf/libfreertos_printf.a(printf.c.obj)
+ .text.vprintf_
+                0x0000000000000000       0x22 freertos/vendors/gwt/libs/printf/libfreertos_printf.a(printf.c.obj)
+ .text.vsnprintf_
+                0x0000000000000000       0x18 freertos/vendors/gwt/libs/printf/libfreertos_printf.a(printf.c.obj)
+ .text.fctprintf
+                0x0000000000000000       0x32 freertos/vendors/gwt/libs/printf/libfreertos_printf.a(printf.c.obj)
+ .text          0x0000000000000000        0x0 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(device.c.obj)
+ .data          0x0000000000000000        0x0 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(device.c.obj)
+ .bss           0x0000000000000000        0x0 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(device.c.obj)
+ .text          0x0000000000000000        0x0 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(pmsis_evt.c.obj)
+ .data          0x0000000000000000        0x0 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(pmsis_evt.c.obj)
+ .bss           0x0000000000000000        0x0 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(pmsis_evt.c.obj)
+ .text.pi_evt_callback_no_irq_init_no_mutex
+                0x0000000000000000       0x20 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(pmsis_evt.c.obj)
+ .text.pi_evt_sig_init_no_mutex
+                0x0000000000000000       0x1c freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(pmsis_evt.c.obj)
+ .text.pi_cl_pi_evt_wait
+                0x0000000000000000       0x20 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(pmsis_evt.c.obj)
+ .text.pi_cl_pi_evt_notify_done
+                0x0000000000000000       0x10 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(pmsis_evt.c.obj)
+ .text.pi_evt_wait_no_mutex
+                0x0000000000000000       0x10 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(pmsis_evt.c.obj)
+ .text.pi_evt_push_delayed_us
+                0x0000000000000000       0x1e freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(pmsis_evt.c.obj)
+ .text.pi_task_push_delayed_us
+                0x0000000000000000        0x8 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(pmsis_evt.c.obj)
+ .text.pi_evt_cancel_delayed_us
+                0x0000000000000000       0x1e freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(pmsis_evt.c.obj)
+ .text.pi_task_cancel_delayed_us
+                0x0000000000000000        0x8 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(pmsis_evt.c.obj)
+ .text          0x0000000000000000        0x0 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(event_kernel.c.obj)
+ .data          0x0000000000000000        0x0 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(event_kernel.c.obj)
+ .bss           0x0000000000000000        0x0 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(event_kernel.c.obj)
+ .text.pi_evt_kernel_lock_cl_to_fc_init
+                0x0000000000000000       0x28 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(event_kernel.c.obj)
+ .text.pi_evt_kernel_mutex_release
+                0x0000000000000000        0x2 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(event_kernel.c.obj)
+ .text.pi_evt_kernel_destroy
+                0x0000000000000000       0x7c freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(event_kernel.c.obj)
+ .text.pi_evt_kernel_destroy_default_scheduler
+                0x0000000000000000       0x16 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(event_kernel.c.obj)
+ .text.pi_evt_kernel_remove_event
+                0x0000000000000000       0x22 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(event_kernel.c.obj)
+ .text          0x0000000000000000        0x0 freertos/vendors/gwt/pmsis/backend/libfreertos_pmsis_backend.a(pmsis_backend_native_task_api.c.obj)
+ .data          0x0000000000000000        0x0 freertos/vendors/gwt/pmsis/backend/libfreertos_pmsis_backend.a(pmsis_backend_native_task_api.c.obj)
+ .bss           0x0000000000000000        0x0 freertos/vendors/gwt/pmsis/backend/libfreertos_pmsis_backend.a(pmsis_backend_native_task_api.c.obj)
+ .text.__pi_evt_push_locked
+                0x0000000000000000       0x3a freertos/vendors/gwt/pmsis/backend/libfreertos_pmsis_backend.a(pmsis_backend_native_task_api.c.obj)
+ .text.pi_time_get_us
+                0x0000000000000000       0x58 freertos/vendors/gwt/pmsis/backend/libfreertos_pmsis_backend.a(pmsis_backend_native_task_api.c.obj)
+ .text.pi_evt_delayed_fifo_enqueue
+                0x0000000000000000       0x3a freertos/vendors/gwt/pmsis/backend/libfreertos_pmsis_backend.a(pmsis_backend_native_task_api.c.obj)
+ .text.pi_time_wait_us
+                0x0000000000000000       0x5a freertos/vendors/gwt/pmsis/backend/libfreertos_pmsis_backend.a(pmsis_backend_native_task_api.c.obj)
+ .text.pi_evt_delayed_fifo_remove
+                0x0000000000000000       0x12 freertos/vendors/gwt/pmsis/backend/libfreertos_pmsis_backend.a(pmsis_backend_native_task_api.c.obj)
+ .text.pi_task_delayed_increment_push
+                0x0000000000000000       0x6c freertos/vendors/gwt/pmsis/backend/libfreertos_pmsis_backend.a(pmsis_backend_native_task_api.c.obj)
+ .data_fc       0x0000000000000000        0x8 freertos/vendors/gwt/pmsis/backend/libfreertos_pmsis_backend.a(pmsis_backend_native_task_api.c.obj)
+ .rodata.pi_time_get_us.cst4
+                0x0000000000000000        0x4 freertos/vendors/gwt/pmsis/backend/libfreertos_pmsis_backend.a(pmsis_backend_native_task_api.c.obj)
+ .text          0x0000000000000000        0x0 freertos/libfreertos.a(queue.c.obj)
+ .data          0x0000000000000000        0x0 freertos/libfreertos.a(queue.c.obj)
+ .bss           0x0000000000000000        0x0 freertos/libfreertos.a(queue.c.obj)
+ .text.prvCopyDataFromQueue
+                0x0000000000000000       0x24 freertos/libfreertos.a(queue.c.obj)
+ .text.xQueueGenericCreateStatic
+                0x0000000000000000       0xe0 freertos/libfreertos.a(queue.c.obj)
+ .text.xQueueGetMutexHolder
+                0x0000000000000000       0x2c freertos/libfreertos.a(queue.c.obj)
+ .text.xQueueGetMutexHolderFromISR
+                0x0000000000000000       0x36 freertos/libfreertos.a(queue.c.obj)
+ .text.xQueueCreateCountingSemaphoreStatic
+                0x0000000000000000       0x70 freertos/libfreertos.a(queue.c.obj)
+ .text.xQueueCreateCountingSemaphore
+                0x0000000000000000       0x66 freertos/libfreertos.a(queue.c.obj)
+ .text.xQueueCreateMutexStatic
+                0x0000000000000000       0x40 freertos/libfreertos.a(queue.c.obj)
+ .text.xQueueGiveMutexRecursive
+                0x0000000000000000       0x64 freertos/libfreertos.a(queue.c.obj)
+ .text.xQueueGenericSendFromISR
+                0x0000000000000000      0x126 freertos/libfreertos.a(queue.c.obj)
+ .text.xQueueGiveFromISR
+                0x0000000000000000      0x100 freertos/libfreertos.a(queue.c.obj)
+ .text.xQueueReceive
+                0x0000000000000000      0x1a4 freertos/libfreertos.a(queue.c.obj)
+ .text.xQueueTakeMutexRecursive
+                0x0000000000000000       0x66 freertos/libfreertos.a(queue.c.obj)
+ .text.xQueuePeek
+                0x0000000000000000      0x1a2 freertos/libfreertos.a(queue.c.obj)
+ .text.xQueueReceiveFromISR
+                0x0000000000000000       0xfc freertos/libfreertos.a(queue.c.obj)
+ .text.xQueuePeekFromISR
+                0x0000000000000000       0xae freertos/libfreertos.a(queue.c.obj)
+ .text.uxQueueMessagesWaiting
+                0x0000000000000000       0x44 freertos/libfreertos.a(queue.c.obj)
+ .text.uxQueueSpacesAvailable
+                0x0000000000000000       0x48 freertos/libfreertos.a(queue.c.obj)
+ .text.uxQueueMessagesWaitingFromISR
+                0x0000000000000000       0x30 freertos/libfreertos.a(queue.c.obj)
+ .text.xQueueIsQueueEmptyFromISR
+                0x0000000000000000       0x36 freertos/libfreertos.a(queue.c.obj)
+ .text.xQueueIsQueueFullFromISR
+                0x0000000000000000       0x3a freertos/libfreertos.a(queue.c.obj)
+ .text.vQueueAddToRegistry
+                0x0000000000000000       0x2a freertos/libfreertos.a(queue.c.obj)
+ .text.pcQueueGetName
+                0x0000000000000000       0x2c freertos/libfreertos.a(queue.c.obj)
+ .text.vQueueUnregisterQueue
+                0x0000000000000000       0x30 freertos/libfreertos.a(queue.c.obj)
+ .text.vQueueDelete
+                0x0000000000000000       0x4e freertos/libfreertos.a(queue.c.obj)
+ .rodata.uxQueueMessagesWaiting.str1.4
+                0x0000000000000000        0x7 freertos/libfreertos.a(queue.c.obj)
+ .rodata.xQueueCreateCountingSemaphoreStatic.str1.4
+                0x0000000000000000       0x2d freertos/libfreertos.a(queue.c.obj)
+ .rodata.xQueueGenericSendFromISR.str1.4
+                0x0000000000000000       0x19 freertos/libfreertos.a(queue.c.obj)
+ .rodata.xQueueGetMutexHolderFromISR.str1.4
+                0x0000000000000000        0xb freertos/libfreertos.a(queue.c.obj)
+ .rodata.xQueueGiveMutexRecursive.str1.4
+                0x0000000000000000        0x8 freertos/libfreertos.a(queue.c.obj)
+ .rodata.xQueuePeekFromISR.str1.4
+                0x0000000000000000       0x19 freertos/libfreertos.a(queue.c.obj)
+ .rodata.xQueueReceiveFromISR.str1.4
+                0x0000000000000000       0x65 freertos/libfreertos.a(queue.c.obj)
+ COMMON         0x0000000000000000       0x40 freertos/libfreertos.a(queue.c.obj)
+ .text          0x0000000000000000        0x0 freertos/libfreertos.a(tasks.c.obj)
+ .data          0x0000000000000000        0x0 freertos/libfreertos.a(tasks.c.obj)
+ .bss           0x0000000000000000        0x0 freertos/libfreertos.a(tasks.c.obj)
+ .text.pi_current_stack_usage_get
+                0x0000000000000000       0x10 freertos/libfreertos.a(tasks.c.obj)
+ .text.prvTaskIsTaskSuspended
+                0x0000000000000000       0x50 freertos/libfreertos.a(tasks.c.obj)
+ .text.pi_dump_stack_usage
+                0x0000000000000000      0x196 freertos/libfreertos.a(tasks.c.obj)
+ .text.eTaskGetState
+                0x0000000000000000       0xb2 freertos/libfreertos.a(tasks.c.obj)
+ .text.uxTaskPriorityGet
+                0x0000000000000000       0x2e freertos/libfreertos.a(tasks.c.obj)
+ .text.uxTaskPriorityGetFromISR
+                0x0000000000000000       0x2e freertos/libfreertos.a(tasks.c.obj)
+ .text.vTaskPrioritySet
+                0x0000000000000000       0xd2 freertos/libfreertos.a(tasks.c.obj)
+ .text.vTaskResume
+                0x0000000000000000       0xa6 freertos/libfreertos.a(tasks.c.obj)
+ .text.xTaskResumeFromISR
+                0x0000000000000000       0xc8 freertos/libfreertos.a(tasks.c.obj)
+ .text.vTaskEndScheduler
+                0x0000000000000000       0x14 freertos/libfreertos.a(tasks.c.obj)
+ .text.xTaskGetTickCount
+                0x0000000000000000        0xa freertos/libfreertos.a(tasks.c.obj)
+ .text.xTaskGetTickCountFromISR
+                0x0000000000000000        0xa freertos/libfreertos.a(tasks.c.obj)
+ .text.uxTaskGetNumberOfTasks
+                0x0000000000000000        0xa freertos/libfreertos.a(tasks.c.obj)
+ .text.pcTaskGetName
+                0x0000000000000000       0x3e freertos/libfreertos.a(tasks.c.obj)
+ .text.xTaskGetIdleTaskHandle
+                0x0000000000000000       0x3c freertos/libfreertos.a(tasks.c.obj)
+ .text.xTaskDelayUntil
+                0x0000000000000000       0xc6 freertos/libfreertos.a(tasks.c.obj)
+ .text.vTaskDelay
+                0x0000000000000000       0x66 freertos/libfreertos.a(tasks.c.obj)
+ .text.xTaskCatchUpTicks
+                0x0000000000000000       0x54 freertos/libfreertos.a(tasks.c.obj)
+ .text.vTaskSuspend
+                0x0000000000000000      0x124 freertos/libfreertos.a(tasks.c.obj)
+ .text.vTaskPlaceOnUnorderedEventList
+                0x0000000000000000       0x8e freertos/libfreertos.a(tasks.c.obj)
+ .text.vTaskRemoveFromUnorderedEventList
+                0x0000000000000000       0xc4 freertos/libfreertos.a(tasks.c.obj)
+ .text.vTaskSetTimeOutState
+                0x0000000000000000       0x52 freertos/libfreertos.a(tasks.c.obj)
+ .text.uxTaskResetEventItemValue
+                0x0000000000000000       0x1a freertos/libfreertos.a(tasks.c.obj)
+ .text.xTaskGenericNotifyWait
+                0x0000000000000000      0x10e freertos/libfreertos.a(tasks.c.obj)
+ .text.xTaskGenericNotify
+                0x0000000000000000      0x180 freertos/libfreertos.a(tasks.c.obj)
+ .text.xTaskGenericNotifyFromISR
+                0x0000000000000000      0x1c4 freertos/libfreertos.a(tasks.c.obj)
+ .text.xTaskGenericNotifyStateClear
+                0x0000000000000000       0x6e freertos/libfreertos.a(tasks.c.obj)
+ .text.ulTaskGenericNotifyValueClear
+                0x0000000000000000       0x44 freertos/libfreertos.a(tasks.c.obj)
+ .rodata.eTaskGetState.str1.4
+                0x0000000000000000        0x6 freertos/libfreertos.a(tasks.c.obj)
+ .rodata.pi_dump_stack_usage.str1.4
+                0x0000000000000000       0x69 freertos/libfreertos.a(tasks.c.obj)
+ .rodata.vTaskPlaceOnUnorderedEventList.str1.4
+                0x0000000000000000       0x1a freertos/libfreertos.a(tasks.c.obj)
+ .rodata.vTaskPrioritySet.str1.4
+                0x0000000000000000       0x29 freertos/libfreertos.a(tasks.c.obj)
+ .rodata.vTaskRemoveFromUnorderedEventList.str1.4
+                0x0000000000000000       0x20 freertos/libfreertos.a(tasks.c.obj)
+ .rodata.vTaskResume.str1.4
+                0x0000000000000000        0xe freertos/libfreertos.a(tasks.c.obj)
+ .rodata.xTaskDelayUntil.str1.4
+                0x0000000000000000       0x2c freertos/libfreertos.a(tasks.c.obj)
+ .rodata.xTaskGenericNotifyStateClear.str1.4
+                0x0000000000000000       0x37 freertos/libfreertos.a(tasks.c.obj)
+ .rodata.xTaskGetIdleTaskHandle.str1.4
+                0x0000000000000000       0x1c freertos/libfreertos.a(tasks.c.obj)
+ .text          0x0000000000000000        0x8 freertos/libfreertos.a(freertos_task.S.obj)
+ .data          0x0000000000000000        0x0 freertos/libfreertos.a(freertos_task.S.obj)
+ .bss           0x0000000000000000        0x0 freertos/libfreertos.a(freertos_task.S.obj)
+ .Pulp_Chip.Info
+                0x0000000000000000        0x0 freertos/libfreertos.a(freertos_task.S.obj)
+ .debug_line    0x0000000000000000       0x93 freertos/libfreertos.a(freertos_task.S.obj)
+ .debug_info    0x0000000000000000       0xc7 freertos/libfreertos.a(freertos_task.S.obj)
+ .debug_abbrev  0x0000000000000000       0x14 freertos/libfreertos.a(freertos_task.S.obj)
+ .debug_aranges
+                0x0000000000000000       0x20 freertos/libfreertos.a(freertos_task.S.obj)
+ .text          0x0000000000000000        0x0 freertos/libfreertos.a(FreeRTOS_util.c.obj)
+ .data          0x0000000000000000        0x0 freertos/libfreertos.a(FreeRTOS_util.c.obj)
+ .bss           0x0000000000000000        0x0 freertos/libfreertos.a(FreeRTOS_util.c.obj)
+ .text.vPortSuppressTicksAndSleep
+                0x0000000000000000        0xe freertos/libfreertos.a(FreeRTOS_util.c.obj)
+ .text          0x0000000000000000        0x0 freertos/libfreertos.a(list.c.obj)
+ .data          0x0000000000000000        0x0 freertos/libfreertos.a(list.c.obj)
+ .bss           0x0000000000000000        0x0 freertos/libfreertos.a(list.c.obj)
+ .data          0x0000000000000000        0x0 freertos/freertos_kernel/portable/GCC/RI5CY-GAP9/libri5cy-gap9.a(port_asm.S.obj)
+ .bss           0x0000000000000000        0x0 freertos/freertos_kernel/portable/GCC/RI5CY-GAP9/libri5cy-gap9.a(port_asm.S.obj)
+ .text          0x0000000000000000        0x0 freertos/freertos_kernel/portable/GCC/RI5CY-GAP9/libri5cy-gap9.a(port.c.obj)
+ .data          0x0000000000000000        0x0 freertos/freertos_kernel/portable/GCC/RI5CY-GAP9/libri5cy-gap9.a(port.c.obj)
+ .bss           0x0000000000000000        0x0 freertos/freertos_kernel/portable/GCC/RI5CY-GAP9/libri5cy-gap9.a(port.c.obj)
+ .text.vPortEndScheduler
+                0x0000000000000000        0x2 freertos/freertos_kernel/portable/GCC/RI5CY-GAP9/libri5cy-gap9.a(port.c.obj)
+ .text          0x0000000000000000        0x0 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(pad.c.obj)
+ .data          0x0000000000000000        0x0 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(pad.c.obj)
+ .bss           0x0000000000000000        0x0 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(pad.c.obj)
+ .text.hal_pad_pad_function_set
+                0x0000000000000000       0x30 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(pad.c.obj)
+ .text.pi_pad_function_set
+                0x0000000000000000        0xc freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(pad.c.obj)
+ .text.pi_pad_set_function
+                0x0000000000000000        0xc freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(pad.c.obj)
+ .text.pi_pad_function_get
+                0x0000000000000000       0x1e freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(pad.c.obj)
+ .text.pi_pad_get_function
+                0x0000000000000000       0x1e freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(pad.c.obj)
+ .text.pi_pad_drive_strength_set
+                0x0000000000000000       0x4a freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(pad.c.obj)
+ .text.pi_pad_mux_group_set
+                0x0000000000000000       0x92 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(pad.c.obj)
+ .text.pi_pad_set_mux_group
+                0x0000000000000000        0x8 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(pad.c.obj)
+ .text.pi_pad_sleep_cfg_set
+                0x0000000000000000       0x44 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(pad.c.obj)
+ .text.pi_pad_set_sleep_cfg
+                0x0000000000000000        0x8 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(pad.c.obj)
+ .sdata.CSWTCH.37
+                0x0000000000000000        0x3 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(pad.c.obj)
+ .text          0x0000000000000000        0x0 /usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/rv32imcxgap9/ilp32/libgcc.a(_ctors.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/rv32imcxgap9/ilp32/libgcc.a(_ctors.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/rv32imcxgap9/ilp32/libgcc.a(_ctors.o)
+ .debug_info    0x0000000000000000      0xad7 /usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/rv32imcxgap9/ilp32/libgcc.a(_ctors.o)
+ .debug_abbrev  0x0000000000000000      0x1be /usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/rv32imcxgap9/ilp32/libgcc.a(_ctors.o)
+ .debug_aranges
+                0x0000000000000000       0x18 /usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/rv32imcxgap9/ilp32/libgcc.a(_ctors.o)
+ .debug_line    0x0000000000000000      0x27d /usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/rv32imcxgap9/ilp32/libgcc.a(_ctors.o)
+ .debug_str     0x0000000000000000      0x7a1 /usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/rv32imcxgap9/ilp32/libgcc.a(_ctors.o)
+ .comment       0x0000000000000000       0x1b /usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/rv32imcxgap9/ilp32/libgcc.a(_ctors.o)
+ .Pulp_Chip.Info
+                0x0000000000000000        0x0 /usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/rv32imcxgap9/ilp32/libgcc.a(_ctors.o)
+ COMMON         0x0000000000000000        0x0 /usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/rv32imcxgap9/ilp32/libgcc.a(_ctors.o)
+
+Configuration mémoire
+
+Nom              Origine            Longueur           Attributs
+L2_priv0         0x000000001c000004 0x000000000000fffc
+L2_priv0_aliased 0x0000000000000004 0x000000000000fffc
+L2_shared        0x000000001c010000 0x0000000000180000
+L1               0x0000000010000004 0x000000000001fffc
+L1_aliased       0x0000000000000004 0x000000000001fffc
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Script de l'éditeurs de liens and table de projection mémoire
+
+LOAD /usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/rv32imcxgap9/ilp32/libgcc.a
+LOAD /usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/rv32imcxgap9/ilp32/libgcc.a
+LOAD CMakeFiles/helloworld.dir/helloworld.c.obj
+LOAD freertos/libfreertos.a
+LOAD freertos/libdt.a
+LOAD freertos/freertos_kernel/portable/GCC/RI5CY-GAP9/libri5cy-gap9.a
+LOAD freertos/vendors/gwt/gap9/libfreertos_gap9.a
+LOAD freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a
+LOAD freertos/vendors/gwt/libs/libfreertos_libs.a
+LOAD freertos/pmsis/implem/libpmsis_implem.a
+LOAD freertos/pmsis/bsp/libbsp.a
+LOAD freertos/vendors/gwt/libs/printf/libfreertos_printf.a
+LOAD freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a
+LOAD freertos/vendors/gwt/pmsis/backend/libfreertos_pmsis_backend.a
+LOAD freertos/libfreertos.a
+LOAD freertos/libdt.a
+LOAD freertos/freertos_kernel/portable/GCC/RI5CY-GAP9/libri5cy-gap9.a
+LOAD freertos/vendors/gwt/gap9/libfreertos_gap9.a
+LOAD freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a
+LOAD freertos/vendors/gwt/libs/libfreertos_libs.a
+LOAD freertos/pmsis/implem/libpmsis_implem.a
+LOAD freertos/pmsis/bsp/libbsp.a
+LOAD freertos/vendors/gwt/libs/printf/libfreertos_printf.a
+LOAD freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a
+LOAD freertos/vendors/gwt/pmsis/backend/libfreertos_pmsis_backend.a
+LOAD libcustom_bsp.a
+LOAD /usr/lib/gap_riscv_toolchain/bin/../lib/gcc/riscv32-unknown-elf/7.1.1/rv32imcxgap9/ilp32/libgcc.a
+                0x0000000000001000                __STACK_FC_SIZE = 0x1000
+                0x0000000000000800                __STACK_IRQ_SIZE = 0x800
+
+.data_tiny_fc   0x0000000000000004      0x50c address de chargement 0x000000001c000004
+                0x0000000000000010                . = ALIGN (0x10)
+ *fill*         0x0000000000000004        0xc 
+ *(.data_tiny_fc)
+ .data_tiny_fc  0x0000000000000010      0x498 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(fc_event.c.obj)
+                0x0000000000000010                fc_event_handlers
+                0x000000000000025c                fc_event_handler_args
+ .data_tiny_fc  0x00000000000004a8       0x24 freertos/pmsis/implem/libpmsis_implem.a(fll.c.obj)
+ .data_tiny_fc  0x00000000000004cc       0x28 freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj)
+                0x00000000000004cc                __pi_pmu_pending_sequence
+                0x00000000000004d0                __pi_pmu_scu_event
+                0x00000000000004d4                __pi_pmu_pending_requests
+                0x00000000000004e0                __pi_pmu_sleep_ctrl
+                0x00000000000004e4                pi_pmu_soc_voltage
+                0x00000000000004e8                __pi_pmu_sleep_spis_ctrl
+                0x00000000000004ec                __pi_pmu_sleep_ctrl_info
+                0x00000000000004f0                __pi_pmu_prev_state
+ .data_tiny_fc  0x00000000000004f4       0x10 freertos/pmsis/implem/libpmsis_implem.a(udma_core.c.obj)
+                0x00000000000004f4                __pi_udma_chan_fifo
+                0x00000000000004f8                __pi_udma_chan_2d
+                0x00000000000004fc                __pi_udma_chan_lin
+ *(.data_tiny_fc.*)
+ *(.fcTcdmTiny)
+ *(.fcTcdmTiny.*)
+                0x0000000000000510                . = ALIGN (0x10)
+ *fill*         0x0000000000000504        0xc 
+
+.boot           0x000000001c000510        0x0
+                0x000000001c000510                . = ALIGN (0x10)
+ *(.boot)
+ *(.boot.*)
+                0x000000001c000510                . = ALIGN (0x10)
+
+.ctors          0x000000001c000510        0xc
+                0x000000001c000510                . = ALIGN (0x10)
+                0x000000001c000510                __CTOR_LIST__ = .
+                0x000000001c000510        0x4 LONG 0x1 (((__CTOR_END__ - __CTOR_LIST__) / 0x4) - 0x2)
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x000000001c000514        0x4 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+                0x000000001c000518        0x4 LONG 0x0
+                0x000000001c00051c                __CTOR_END__ = .
+
+.dtors          0x000000001c00051c        0xc
+                0x000000001c000520                . = ALIGN (0x10)
+ *fill*         0x000000001c00051c        0x4 
+                0x000000001c000520                __DTOR_LIST__ = .
+                0x000000001c000520        0x4 LONG 0x0 (((__DTOR_END__ - __DTOR_LIST__) / 0x4) - 0x2)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+                0x000000001c000524        0x4 LONG 0x0
+                0x000000001c000528                __DTOR_END__ = .
+
+.data_fc        0x000000001c000528      0x278
+                0x000000001c000528                . = ALIGN (0x4)
+                0x000000001c000528                __printf_lock_ptr_l2 = .
+                0x000000001c00052c                . = (__printf_lock_ptr_l2 + 0x4)
+ *fill*         0x000000001c000528        0x4 
+                0x000000001c000530                . = ALIGN (0x10)
+ *fill*         0x000000001c00052c        0x4 
+                0x000000001c000530                sdata = .
+                0x000000001c000530                _sdata = .
+ *(.sdata)
+ *(.sdata.*)
+ .sdata.SystemCoreClock
+                0x000000001c000530        0x4 freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj)
+                0x000000001c000530                SystemCoreClock
+ .sdata.uxTopUsedPriority
+                0x000000001c000534        0x4 freertos/libfreertos.a(tasks.c.obj)
+                0x000000001c000534                uxTopUsedPriority
+ *(.data_fc)
+ .data_fc       0x000000001c000538        0x4 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(event_kernel.c.obj)
+                0x000000001c000538                default_sched
+ .data_fc       0x000000001c00053c      0x260 freertos/libfreertos.a(FreeRTOS_util.c.obj)
+ *(.data_fc.*)
+ *(.fcTcdm)
+ *(.fcTcdm.*)
+ *(.fcTcdm_g)
+ *(.fcTcdm_g.*)
+ *(.heapfcram)
+ *(.heapfcram.*)
+                0x000000001c0007a0                . = ALIGN (0x10)
+ *fill*         0x000000001c00079c        0x4 
+                0x000000001c0007a0                edata = .
+                0x000000001c0007a0                _edata = .
+
+.stack_irq      0x000000001c0007a0      0x800
+                0x000000001c0007a0                . = ALIGN (0x10)
+                0x000000001c0007a0                __fc_bss_start__ = .
+                0x000000001c0007a0                __fc_bss_end__ = .
+                0x000000001c0007a0                __stack_irq_end__ = .
+                0x000000001c000fa0                . = (. + __STACK_IRQ_SIZE)
+ *fill*         0x000000001c0007a0      0x800 
+                0x000000001c000fa0                __stack_irq_start__ = .
+                0x000000001c000fa0                . = ALIGN (0x10)
+                0x000000001c000fa0                __heapfcram_start = .
+                0x000000000000f060                __heapfcram_size = ((ORIGIN (L2_priv0) + LENGTH (L2_priv0)) - __heapfcram_start)
+
+.vectors_irq    0x000000001c010000       0x94
+                0x000000001c010000                . = ALIGN (0x100)
+                0x000000001c010000                __irq_vector_base_m__ = .
+ *(.vectors_irq)
+ .vectors_irq   0x000000001c010000       0x94 freertos/vendors/gwt/gap9/libfreertos_gap9.a(startup_gap9.S.obj)
+                0x000000001c010090                __rt_debug_struct_ptr
+
+.cluster_vectors_irq
+                0x000000001c010094       0x6c
+                0x000000001c010100                . = ALIGN (0x100)
+ *fill*         0x000000001c010094       0x6c 
+                0x000000001c010100                __irq_cluster_vector_base_m__ = .
+ *(.cluster_vectors_irq)
+
+.text_l2        0x000000001c010100      0x9f4
+                0x000000001c010100                . = ALIGN (0x10)
+ *(.text.text_l2.reset)
+ .text.text_l2.reset
+                0x000000001c010100      0x1ac freertos/vendors/gwt/gap9/libfreertos_gap9.a(startup_gap9.S.obj)
+                0x000000001c010100                _start
+                0x000000001c0101b6                _start_from_sleep_with_retention
+                0x000000001c010270                __main
+                0x000000001c010296                __printf_uart_close
+ *(.text.text_l2.reset.*)
+ *(.text.text_l2)
+ .text.text_l2  0x000000001c0102ac       0x34 freertos/vendors/gwt/gap9/libfreertos_gap9.a(startup_gap9.S.obj)
+                0x000000001c0102ac                _save_context
+ .text.text_l2  0x000000001c0102e0      0x26c freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_iet.S.obj)
+                0x000000001c0102e0                mcause_check
+                0x000000001c0103ec                pi_irq_handler_wrapper
+                0x000000001c010424                pendSV_handler
+                0x000000001c01048c                systick_handler
+                0x000000001c0104c0                fc_event_handler
+                0x000000001c0104e8                pmu_event_handler
+                0x000000001c010510                ecall_handler
+                0x000000001c01053a                default_handler
+                0x000000001c01053e                ill_ins_handler
+ .text.text_l2  0x000000001c01054c       0x50 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer_asm.S.obj)
+                0x000000001c01054c                __pi_timer_fc_0_1_irq_handler
+                0x000000001c010574                __pi_timer_fc_1_1_irq_handler
+ .text.text_l2  0x000000001c01059c      0x124 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(asm_util.S.obj)
+                0x000000001c01059c                ASM_FUNC_SAVE_MINIMAL_CONTEXT
+                0x000000001c0105e0                ASM_FUNC_RESTORE_MINIMAL_CONTEXT
+                0x000000001c010624                ASM_FUNC_SAVE_SAVE_CONTEXT
+                0x000000001c01063e                ASM_FUNC_RESTORE_SAVE_CONTEXT
+                0x000000001c010658                ASM_FUNC_SAVE_CSR_CONTEXT
+                0x000000001c010666                ASM_FUNC_RESTORE_CSR_CONTEXT
+                0x000000001c010674                ASM_FUNC_SAVE_ADDITIONAL_CONTEXT
+                0x000000001c01069a                ASM_FUNC_RESTORE_ADDITIONAL_CONTEXT
+ *(.text.text_l2.*)
+ .text_l2       0x000000001c0106c0      0x36c freertos/pmsis/implem/libpmsis_implem.a(fll.c.obj)
+                0x000000001c010760                __pi_fll_init
+                0x000000001c01078e                __pi_fll_init_all
+                0x000000001c010808                __pi_fll_deinit
+                0x000000001c010830                pi_freq_get
+                0x000000001c01083e                pi_freq_set
+                0x000000001c010856                pi_freq_div_by
+                0x000000001c01089e                pi_freq_mult_by
+                0x000000001c0108e6                pi_fll_ioctl
+ .text_l2       0x000000001c010a2c       0xc8 freertos/pmsis/implem/libpmsis_implem.a(maestro_irq.c.obj)
+                0x000000001c010a2c                __pi_pmu_scu_handler
+
+.text           0x000000001c010af4     0x40dc
+                0x000000001c010b00                . = ALIGN (0x10)
+ *fill*         0x000000001c010af4        0xc 
+                0x000000001c010b00                _stext = .
+ *(.text.reset)
+ *(.text)
+ .text          0x000000001c010b00       0x20 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(fc_event.c.obj)
+                0x000000001c010b00                fc_soc_event_handler
+ .text          0x000000001c010b20       0x16 freertos/vendors/gwt/libs/libfreertos_libs.a(stdlib.c.obj)
+                0x000000001c010b20                exit
+ .text          0x000000001c010b36      0x5e4 freertos/vendors/gwt/libs/libfreertos_libs.a(string.c.obj)
+                0x000000001c010b36                memcmp
+                0x000000001c010bbe                memcpy
+                0x000000001c010c24                memset
+                0x000000001c010c7c                strcmp
+                0x000000001c010cec                strncmp
+                0x000000001c010d7a                str_starts_with
+                0x000000001c010db2                str_ends_with
+                0x000000001c010e6a                strlen
+                0x000000001c010eb0                strcat
+                0x000000001c010f14                strcpy
+                0x000000001c010f6a                strncpy
+                0x000000001c010fda                strspn
+                0x000000001c011060                strcspn
+                0x000000001c0110d6                strchr
+ .text          0x000000001c01111a       0x9a freertos/freertos_kernel/portable/GCC/RI5CY-GAP9/libri5cy-gap9.a(port_asm.S.obj)
+                0x000000001c01111a                xPortStartScheduler
+ *(.text.*)
+ .text.cluster_delegate
+                0x000000001c0111b4       0x6e CMakeFiles/helloworld.dir/helloworld.c.obj
+                0x000000001c0111b4                cluster_delegate
+ .text.cluster_helloworld
+                0x000000001c011222       0x1e CMakeFiles/helloworld.dir/helloworld.c.obj
+                0x000000001c011222                cluster_helloworld
+ .text.startup.main
+                0x000000001c011240       0xa8 CMakeFiles/helloworld.dir/helloworld.c.obj
+                0x000000001c011240                main
+ .text.pi_soc_eu_fc_mask_reset
+                0x000000001c0112e8       0x28 freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj)
+ .text.pi_soc_eu_cl_mask_reset
+                0x000000001c011310       0x28 freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj)
+ .text.pi_soc_eu_pr_mask_reset
+                0x000000001c011338       0x28 freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj)
+ .text.pi_udma_core_channels_init
+                0x000000001c011360       0x20 freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj)
+ .text.system_init
+                0x000000001c011380       0x98 freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj)
+                0x000000001c011380                system_init
+ .text.system_init_finalize
+                0x000000001c011418       0x18 freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj)
+                0x000000001c011418                system_init_finalize
+ .text._system_init_from_sleep_with_retention
+                0x000000001c011430       0x5c freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj)
+                0x000000001c011430                _system_init_from_sleep_with_retention
+ .text.system_printf_uart_close
+                0x000000001c01148c        0x2 freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj)
+                0x000000001c01148c                system_printf_uart_close
+ .text.deallocate_init_stack
+                0x000000001c01148e        0xc freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj)
+                0x000000001c01148e                deallocate_init_stack
+ .text.system_setup_systick
+                0x000000001c01149a       0xa6 freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj)
+                0x000000001c01149a                system_setup_systick
+ .text.system_core_clock_update
+                0x000000001c011540       0x54 freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj)
+                0x000000001c011540                system_core_clock_update
+ .text.system_exit
+                0x000000001c011594       0x52 freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj)
+                0x000000001c011594                system_exit
+ .text.__is_irq_mode
+                0x000000001c0115e6       0x28 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap_io.c.obj)
+ .text.__internal_semihost.constprop.5
+                0x000000001c01160e       0x12 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap_io.c.obj)
+ .text.__semihost_putc_cluster_req
+                0x000000001c011620       0x3a freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap_io.c.obj)
+ .text.__io_lock
+                0x000000001c01165a       0x9a freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap_io.c.obj)
+                0x000000001c01165a                __io_lock
+ .text.__io_unlock
+                0x000000001c0116f4       0x50 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap_io.c.obj)
+                0x000000001c0116f4                __io_unlock
+ .text.__semihost_putc
+                0x000000001c011744      0x120 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap_io.c.obj)
+ .text._putchar
+                0x000000001c011864        0x2 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap_io.c.obj)
+                0x000000001c011864                _putchar
+ .text.puts     0x000000001c011866       0x20 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap_io.c.obj)
+                0x000000001c011866                puts
+ .text.system_exit_printf_flush
+                0x000000001c011886       0x32 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap_io.c.obj)
+                0x000000001c011886                system_exit_printf_flush
+ .text._procid  0x000000001c0118b8        0xa freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+                0x000000001c0118b8                _procid
+ .text._clusterid
+                0x000000001c0118c2        0x8 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+                0x000000001c0118c2                _clusterid
+ .text._priv_drop
+                0x000000001c0118ca       0x10 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+                0x000000001c0118ca                _priv_drop
+ .text._isr_default
+                0x000000001c0118da       0x18 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+                0x000000001c0118da                _isr_default
+ .text._puts    0x000000001c0118f2        0xe freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+                0x000000001c0118f2                _puts
+ .text.vSetPendSV
+                0x000000001c011900        0xa freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+                0x000000001c011900                vSetPendSV
+ .text.pmp_exception_handler
+                0x000000001c01190a       0x22 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+                0x000000001c01190a                pmp_exception_handler
+ .text.xip_insn_exception_handler
+                0x000000001c01192c       0x56 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+                0x000000001c01192c                xip_insn_exception_handler
+ .text.xip_data_exception_handler
+                0x000000001c011982       0x5c freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+                0x000000001c011982                xip_data_exception_handler
+ .text._ill_insn_print
+                0x000000001c0119de        0xc freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+                0x000000001c0119de                _ill_insn_print
+ .text.__pi_evt_push_locked
+                0x000000001c0119ea       0x2e freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+ .text.__os_native_irq_handler_set
+                0x000000001c011a18       0x38 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+ .text.startup.__pi_timer_init__
+                0x000000001c011a50        0x6 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+                0x000000001c011a50                __pi_timer_init__
+ .text.__pi_timer_fc_0_1_handler
+                0x000000001c011a56       0x62 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+                0x000000001c011a56                __pi_timer_fc_0_1_handler
+ .text.__pi_timer_fc_1_1_handler
+                0x000000001c011ab8       0x84 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+                0x000000001c011ab8                __pi_timer_fc_1_1_handler
+ .text.__pi_timer_clock_freq_get
+                0x000000001c011b3c       0x24 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+                0x000000001c011b3c                __pi_timer_clock_freq_get
+ .text.__pi_timer_conf_init
+                0x000000001c011b60        0x6 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+                0x000000001c011b60                __pi_timer_conf_init
+ .text.__pi_timer_init
+                0x000000001c011b66       0x38 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+                0x000000001c011b66                __pi_timer_init
+ .text.__pi_timer_stop
+                0x000000001c011b9e       0x30 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+                0x000000001c011b9e                __pi_timer_stop
+ .text.pi_timer_conf_init
+                0x000000001c011bce       0x16 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+                0x000000001c011bce                pi_timer_conf_init
+ .text.pi_timer_open
+                0x000000001c011be4      0x11a freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+                0x000000001c011be4                pi_timer_open
+ .text.pi_timer_start
+                0x000000001c011cfe       0x2a freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+                0x000000001c011cfe                pi_timer_start
+ .text.__do_ctors__
+                0x000000001c011d28       0x32 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(ctors_dtors.c.obj)
+                0x000000001c011d28                __do_ctors__
+ .text.__do_dtors__
+                0x000000001c011d5a       0x32 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(ctors_dtors.c.obj)
+                0x000000001c011d5a                __do_dtors__
+ .text.pi_ref_fast_clock_frequency_set
+                0x000000001c011d8c       0x4e freertos/pmsis/implem/libpmsis_implem.a(fll.c.obj)
+                0x000000001c011d8c                pi_ref_fast_clock_frequency_set
+ .text.pi_ref_fast_clock_frequency_get
+                0x000000001c011dda       0x1a freertos/pmsis/implem/libpmsis_implem.a(fll.c.obj)
+                0x000000001c011dda                pi_ref_fast_clock_frequency_get
+ .text.__pi_evt_push_locked
+                0x000000001c011df4       0x2e freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj)
+ .text.__pi_pmu_change_domain_power_async
+                0x000000001c011e22       0xce freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj)
+ .text.__pi_pmu_itc_wait.constprop.1
+                0x000000001c011ef0       0x24 freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj)
+ .text.__pi_pmu_shutdown
+                0x000000001c011f14       0xf4 freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj)
+ .text.pi_pmu_voltage_get
+                0x000000001c012008        0x6 freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj)
+                0x000000001c012008                pi_pmu_voltage_get
+ .text.pi_pmu_domain_state_change_async
+                0x000000001c01200e       0x2e freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj)
+                0x000000001c01200e                pi_pmu_domain_state_change_async
+ .text.pi_pmu_domain_state_change
+                0x000000001c01203c       0x2a freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj)
+                0x000000001c01203c                pi_pmu_domain_state_change
+ .text.__pi_pmu_init
+                0x000000001c012066       0xb8 freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj)
+                0x000000001c012066                __pi_pmu_init
+ .text.pos_alloc_init_l1
+                0x000000001c01211e       0x14 freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+                0x000000001c01211e                pos_alloc_init_l1
+ .text.pos_allocs_init
+                0x000000001c012132       0xb0 freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+                0x000000001c012132                pos_allocs_init
+ .text.pi_cl_l1_free
+                0x000000001c0121e2       0x1c freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+                0x000000001c0121e2                pi_cl_l1_free
+ .text.pi_l2_free
+                0x000000001c0121fe       0x26 freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+                0x000000001c0121fe                pi_l2_free
+ .text.pi_fc_l1_free
+                0x000000001c012224       0x26 freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+                0x000000001c012224                pi_fc_l1_free
+ .text.pi_l2_malloc_dump
+                0x000000001c01224a        0xa freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+                0x000000001c01224a                pi_l2_malloc_dump
+ .text.pi_fc_l1_malloc_dump
+                0x000000001c012254        0xa freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+                0x000000001c012254                pi_fc_l1_malloc_dump
+ .text.pi_alloc_fail
+                0x000000001c01225e       0x4c freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+                0x000000001c01225e                pi_alloc_fail
+ .text.pi_cl_l1_malloc
+                0x000000001c0122aa       0x56 freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+                0x000000001c0122aa                pi_cl_l1_malloc
+ .text.pi_l2_malloc
+                0x000000001c012300       0x4a freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+                0x000000001c012300                pi_l2_malloc
+ .text.pi_malloc_init
+                0x000000001c01234a        0x2 freertos/pmsis/implem/libpmsis_implem.a(pi_malloc.c.obj)
+                0x000000001c01234a                pi_malloc_init
+ .text.pi_malloc
+                0x000000001c01234c       0x1a freertos/pmsis/implem/libpmsis_implem.a(pi_malloc.c.obj)
+                0x000000001c01234c                pi_malloc
+ .text.pi_free  0x000000001c012366       0x10 freertos/pmsis/implem/libpmsis_implem.a(pi_malloc.c.obj)
+                0x000000001c012366                pi_free
+ .text.pi_task_remote_enqueue
+                0x000000001c012376       0x62 freertos/pmsis/implem/libpmsis_implem.a(cluster.c.obj)
+ .text.__pi_cluster_task_set_stack.isra.3
+                0x000000001c0123d8       0x5a freertos/pmsis/implem/libpmsis_implem.a(cluster.c.obj)
+ .text.pi_cluster_conf_init
+                0x000000001c012432       0x1a freertos/pmsis/implem/libpmsis_implem.a(cluster.c.obj)
+                0x000000001c012432                pi_cluster_conf_init
+ .text.pi_cluster_open
+                0x000000001c01244c      0x252 freertos/pmsis/implem/libpmsis_implem.a(cluster.c.obj)
+                0x000000001c01244c                pi_cluster_open
+ .text.pi_cluster_close
+                0x000000001c01269e       0x1c freertos/pmsis/implem/libpmsis_implem.a(cluster.c.obj)
+                0x000000001c01269e                pi_cluster_close
+ .text.pi_cluster_send_task_to_cl_async
+                0x000000001c0126ba       0x74 freertos/pmsis/implem/libpmsis_implem.a(cluster.c.obj)
+                0x000000001c0126ba                pi_cluster_send_task_to_cl_async
+ .text.pi_cluster_send_task_to_cl
+                0x000000001c01272e       0x2e freertos/pmsis/implem/libpmsis_implem.a(cluster.c.obj)
+                0x000000001c01272e                pi_cluster_send_task_to_cl
+ .text.pi_cl_send_task_to_fc
+                0x000000001c01275c       0x58 freertos/pmsis/implem/libpmsis_implem.a(cluster.c.obj)
+                0x000000001c01275c                pi_cl_send_task_to_fc
+ .text.pos_alloc_power_ctrl
+                0x000000001c0127b4       0x5c freertos/pmsis/implem/libpmsis_implem.a(alloc.c.obj)
+                0x000000001c0127b4                pos_alloc_power_ctrl
+ .text.pos_alloc_dump
+                0x000000001c012810       0x66 freertos/pmsis/implem/libpmsis_implem.a(alloc.c.obj)
+                0x000000001c012810                pos_alloc_dump
+ .text.pos_alloc_account
+                0x000000001c012876       0x7e freertos/pmsis/implem/libpmsis_implem.a(alloc.c.obj)
+                0x000000001c012876                pos_alloc_account
+ .text.pos_alloc_account_alloc
+                0x000000001c0128f4        0xc freertos/pmsis/implem/libpmsis_implem.a(alloc.c.obj)
+ .text.pos_alloc_account_free
+                0x000000001c012900        0xc freertos/pmsis/implem/libpmsis_implem.a(alloc.c.obj)
+                0x000000001c012900                pos_alloc_account_free
+ .text.pos_alloc_init
+                0x000000001c01290c       0x24 freertos/pmsis/implem/libpmsis_implem.a(alloc.c.obj)
+                0x000000001c01290c                pos_alloc_init
+ .text.pos_alloc
+                0x000000001c012930       0x88 freertos/pmsis/implem/libpmsis_implem.a(alloc.c.obj)
+                0x000000001c012930                pos_alloc
+ .text.pos_free
+                0x000000001c0129b8       0x8a freertos/pmsis/implem/libpmsis_implem.a(alloc.c.obj)
+                0x000000001c0129b8                pos_free
+ .text.pi_bsp_init
+                0x000000001c012a42       0x24 freertos/pmsis/bsp/libbsp.a(bsp.c.obj)
+                0x000000001c012a42                pi_bsp_init
+ .text._out_null
+                0x000000001c012a66        0x2 freertos/vendors/gwt/libs/printf/libfreertos_printf.a(printf.c.obj)
+ .text._ntoa_long
+                0x000000001c012a68      0x216 freertos/vendors/gwt/libs/printf/libfreertos_printf.a(printf.c.obj)
+ .text._out_char
+                0x000000001c012c7e        0x8 freertos/vendors/gwt/libs/printf/libfreertos_printf.a(printf.c.obj)
+ .text._vsnprintf
+                0x000000001c012c86      0x492 freertos/vendors/gwt/libs/printf/libfreertos_printf.a(printf.c.obj)
+ .text.printf_  0x000000001c013118       0x2e freertos/vendors/gwt/libs/printf/libfreertos_printf.a(printf.c.obj)
+                0x000000001c013118                printf_
+ .text.pi_open_from_conf
+                0x000000001c013146        0x4 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(device.c.obj)
+                0x000000001c013146                pi_open_from_conf
+ .text.__pi_evt_sig_init
+                0x000000001c01314a       0x2e freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(pmsis_evt.c.obj)
+                0x000000001c01314a                __pi_evt_sig_init
+ .text.__pi_evt_release
+                0x000000001c013178       0x4c freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(pmsis_evt.c.obj)
+                0x000000001c013178                __pi_evt_release
+ .text.__pi_evt_destroy
+                0x000000001c0131c4        0x6 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(pmsis_evt.c.obj)
+                0x000000001c0131c4                __pi_evt_destroy
+ .text.__pi_evt_wait
+                0x000000001c0131ca       0x2c freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(pmsis_evt.c.obj)
+                0x000000001c0131ca                __pi_evt_wait
+ .text.pi_evt_callback_release
+                0x000000001c0131f6        0x2 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(pmsis_evt.c.obj)
+                0x000000001c0131f6                pi_evt_callback_release
+ .text.pi_list_remove_node_pos.part.1
+                0x000000001c0131f8       0x40 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(event_kernel.c.obj)
+ .text.pi_evt_kernel_push_event
+                0x000000001c013238       0x4e freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(event_kernel.c.obj)
+                0x000000001c013238                pi_evt_kernel_push_event
+ .text.pi_evt_push
+                0x000000001c013286       0x3a freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(event_kernel.c.obj)
+ .text.callback_sigchld
+                0x000000001c0132c0       0xf4 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(event_kernel.c.obj)
+ .text.pi_evt_kernel_init
+                0x000000001c0133b4      0x13a freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(event_kernel.c.obj)
+                0x000000001c0133b4                pi_evt_kernel_init
+ .text.pi_evt_kernel_main
+                0x000000001c0134ee       0x94 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(event_kernel.c.obj)
+                0x000000001c0134ee                pi_evt_kernel_main
+ .text.pi_evt_kernel_get_default_scheduler
+                0x000000001c013582        0xa freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(event_kernel.c.obj)
+                0x000000001c013582                pi_evt_kernel_get_default_scheduler
+ .text.pi_evt_kernel_set_default_scheduler
+                0x000000001c01358c        0xa freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(event_kernel.c.obj)
+                0x000000001c01358c                pi_evt_kernel_set_default_scheduler
+ .text.__os_init
+                0x000000001c013596       0x98 freertos/vendors/gwt/pmsis/backend/libfreertos_pmsis_backend.a(pmsis_backend_native_task_api.c.obj)
+                0x000000001c013596                __os_init
+ .text.__os_thread_private_init
+                0x000000001c01362e       0x30 freertos/vendors/gwt/pmsis/backend/libfreertos_pmsis_backend.a(pmsis_backend_native_task_api.c.obj)
+                0x000000001c01362e                __os_thread_private_init
+ .text.prvIsQueueEmpty
+                0x000000001c01365e       0x20 freertos/libfreertos.a(queue.c.obj)
+ .text.prvCopyDataToQueue
+                0x000000001c01367e       0x7e freertos/libfreertos.a(queue.c.obj)
+ .text.prvUnlockQueue
+                0x000000001c0136fc       0x82 freertos/libfreertos.a(queue.c.obj)
+ .text.xQueueGenericReset
+                0x000000001c01377e       0x80 freertos/libfreertos.a(queue.c.obj)
+                0x000000001c01377e                xQueueGenericReset
+ .text.xQueueGenericCreate
+                0x000000001c0137fe       0xa4 freertos/libfreertos.a(queue.c.obj)
+                0x000000001c0137fe                xQueueGenericCreate
+ .text.xQueueGenericSend
+                0x000000001c0138a2      0x166 freertos/libfreertos.a(queue.c.obj)
+                0x000000001c0138a2                xQueueGenericSend
+ .text.xQueueCreateMutex
+                0x000000001c013a08       0x30 freertos/libfreertos.a(queue.c.obj)
+                0x000000001c013a08                xQueueCreateMutex
+ .text.xQueueSemaphoreTake
+                0x000000001c013a38      0x184 freertos/libfreertos.a(queue.c.obj)
+                0x000000001c013a38                xQueueSemaphoreTake
+ .text.prvAddNewTaskToReadyList
+                0x000000001c013bbc      0x11e freertos/libfreertos.a(tasks.c.obj)
+ .text.prvResetNextTaskUnblockTime
+                0x000000001c013cda       0x24 freertos/libfreertos.a(tasks.c.obj)
+ .text.prvInitialiseNewTask.isra.2
+                0x000000001c013cfe       0xaa freertos/libfreertos.a(tasks.c.obj)
+ .text.prvDeleteTCB
+                0x000000001c013da8       0x44 freertos/libfreertos.a(tasks.c.obj)
+ .text.prvIdleTask
+                0x000000001c013dec       0x5c freertos/libfreertos.a(tasks.c.obj)
+ .text.prvAddCurrentTaskToDelayedList
+                0x000000001c013e48       0xa8 freertos/libfreertos.a(tasks.c.obj)
+ .text.xTaskCreateStatic
+                0x000000001c013ef0       0xb6 freertos/libfreertos.a(tasks.c.obj)
+                0x000000001c013ef0                xTaskCreateStatic
+ .text.prxTaskGetHandler
+                0x000000001c013fa6        0xc freertos/libfreertos.a(tasks.c.obj)
+                0x000000001c013fa6                prxTaskGetHandler
+ .text.xTaskCreate
+                0x000000001c013fb2       0x64 freertos/libfreertos.a(tasks.c.obj)
+                0x000000001c013fb2                xTaskCreate
+ .text.vTaskDelete
+                0x000000001c014016       0xcc freertos/libfreertos.a(tasks.c.obj)
+                0x000000001c014016                vTaskDelete
+ .text.vTaskStartScheduler
+                0x000000001c0140e2       0x6c freertos/libfreertos.a(tasks.c.obj)
+                0x000000001c0140e2                vTaskStartScheduler
+ .text.vTaskSuspendAll
+                0x000000001c01414e       0x10 freertos/libfreertos.a(tasks.c.obj)
+                0x000000001c01414e                vTaskSuspendAll
+ .text.xTaskIncrementTick
+                0x000000001c01415e      0x120 freertos/libfreertos.a(tasks.c.obj)
+                0x000000001c01415e                xTaskIncrementTick
+ .text.xTaskResumeAll
+                0x000000001c01427e      0x11c freertos/libfreertos.a(tasks.c.obj)
+                0x000000001c01427e                xTaskResumeAll
+ .text.vTaskSwitchContext
+                0x000000001c01439a       0xd4 freertos/libfreertos.a(tasks.c.obj)
+                0x000000001c01439a                vTaskSwitchContext
+ .text.vTaskPlaceOnEventList
+                0x000000001c01446e       0x46 freertos/libfreertos.a(tasks.c.obj)
+                0x000000001c01446e                vTaskPlaceOnEventList
+ .text.xTaskRemoveFromEventList
+                0x000000001c0144b4       0x98 freertos/libfreertos.a(tasks.c.obj)
+                0x000000001c0144b4                xTaskRemoveFromEventList
+ .text.vTaskInternalSetTimeOutState
+                0x000000001c01454c       0x16 freertos/libfreertos.a(tasks.c.obj)
+                0x000000001c01454c                vTaskInternalSetTimeOutState
+ .text.xTaskCheckForTimeOut
+                0x000000001c014562       0x8e freertos/libfreertos.a(tasks.c.obj)
+                0x000000001c014562                xTaskCheckForTimeOut
+ .text.vTaskMissedYield
+                0x000000001c0145f0        0xc freertos/libfreertos.a(tasks.c.obj)
+                0x000000001c0145f0                vTaskMissedYield
+ .text.eTaskConfirmSleepModeStatus
+                0x000000001c0145fc       0x3c freertos/libfreertos.a(tasks.c.obj)
+                0x000000001c0145fc                eTaskConfirmSleepModeStatus
+ .text.xTaskGetCurrentTaskHandle
+                0x000000001c014638        0xa freertos/libfreertos.a(tasks.c.obj)
+                0x000000001c014638                xTaskGetCurrentTaskHandle
+ .text.xTaskGetSchedulerState
+                0x000000001c014642       0x1c freertos/libfreertos.a(tasks.c.obj)
+                0x000000001c014642                xTaskGetSchedulerState
+ .text.xTaskPriorityInherit
+                0x000000001c01465e       0x9e freertos/libfreertos.a(tasks.c.obj)
+                0x000000001c01465e                xTaskPriorityInherit
+ .text.xTaskPriorityDisinherit
+                0x000000001c0146fc       0xa2 freertos/libfreertos.a(tasks.c.obj)
+                0x000000001c0146fc                xTaskPriorityDisinherit
+ .text.vTaskPriorityDisinheritAfterTimeout
+                0x000000001c01479e       0xc6 freertos/libfreertos.a(tasks.c.obj)
+                0x000000001c01479e                vTaskPriorityDisinheritAfterTimeout
+ .text.pvTaskIncrementMutexHeldCount
+                0x000000001c014864       0x1c freertos/libfreertos.a(tasks.c.obj)
+                0x000000001c014864                pvTaskIncrementMutexHeldCount
+ .text.ulTaskGenericNotifyTake
+                0x000000001c014880       0xae freertos/libfreertos.a(tasks.c.obj)
+                0x000000001c014880                ulTaskGenericNotifyTake
+ .text.vTaskGenericNotifyGiveFromISR
+                0x000000001c01492e      0x104 freertos/libfreertos.a(tasks.c.obj)
+                0x000000001c01492e                vTaskGenericNotifyGiveFromISR
+ .text.vApplicationIdleHook
+                0x000000001c014a32       0x44 freertos/libfreertos.a(FreeRTOS_util.c.obj)
+                0x000000001c014a32                vApplicationIdleHook
+ .text.vApplicationStackOverflowHook
+                0x000000001c014a76       0x1a freertos/libfreertos.a(FreeRTOS_util.c.obj)
+                0x000000001c014a76                vApplicationStackOverflowHook
+ .text.vApplicationGetIdleTaskMemory
+                0x000000001c014a90       0x18 freertos/libfreertos.a(FreeRTOS_util.c.obj)
+                0x000000001c014a90                vApplicationGetIdleTaskMemory
+ .text.vPrvAssertFailed
+                0x000000001c014aa8       0x12 freertos/libfreertos.a(FreeRTOS_util.c.obj)
+                0x000000001c014aa8                vPrvAssertFailed
+ .text.vListInitialise
+                0x000000001c014aba       0x14 freertos/libfreertos.a(list.c.obj)
+                0x000000001c014aba                vListInitialise
+ .text.vListInitialiseItem
+                0x000000001c014ace        0x6 freertos/libfreertos.a(list.c.obj)
+                0x000000001c014ace                vListInitialiseItem
+ .text.vListInsertEnd
+                0x000000001c014ad4       0x18 freertos/libfreertos.a(list.c.obj)
+                0x000000001c014ad4                vListInsertEnd
+ .text.vListInsert
+                0x000000001c014aec       0x2c freertos/libfreertos.a(list.c.obj)
+                0x000000001c014aec                vListInsert
+ .text.uxListRemove
+                0x000000001c014b18       0x22 freertos/libfreertos.a(list.c.obj)
+                0x000000001c014b18                uxListRemove
+ .text.pxPortInitialiseStack
+                0x000000001c014b3a       0x38 freertos/freertos_kernel/portable/GCC/RI5CY-GAP9/libri5cy-gap9.a(port.c.obj)
+                0x000000001c014b3a                pxPortInitialiseStack
+ .text.prvSetupTimerInterrupt
+                0x000000001c014b72        0x8 freertos/freertos_kernel/portable/GCC/RI5CY-GAP9/libri5cy-gap9.a(port.c.obj)
+                0x000000001c014b72                prvSetupTimerInterrupt
+ .text.vPortEnter_Critical
+                0x000000001c014b7a       0x14 freertos/freertos_kernel/portable/GCC/RI5CY-GAP9/libri5cy-gap9.a(port.c.obj)
+                0x000000001c014b7a                vPortEnter_Critical
+ .text.vPortExit_Critical
+                0x000000001c014b8e       0x1c freertos/freertos_kernel/portable/GCC/RI5CY-GAP9/libri5cy-gap9.a(port.c.obj)
+                0x000000001c014b8e                vPortExit_Critical
+ .text.uPortSet_Interrupt_Mask_From_ISR
+                0x000000001c014baa        0x6 freertos/freertos_kernel/portable/GCC/RI5CY-GAP9/libri5cy-gap9.a(port.c.obj)
+                0x000000001c014baa                uPortSet_Interrupt_Mask_From_ISR
+ .text.vPortClear_Interrupt_Mask_From_ISR
+                0x000000001c014bb0        0x6 freertos/freertos_kernel/portable/GCC/RI5CY-GAP9/libri5cy-gap9.a(port.c.obj)
+                0x000000001c014bb0                vPortClear_Interrupt_Mask_From_ISR
+ .text.pi_pad_init
+                0x000000001c014bb6       0x16 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(pad.c.obj)
+                0x000000001c014bb6                pi_pad_init
+                0x000000001c014bd0                . = ALIGN (0x10)
+ *fill*         0x000000001c014bcc        0x4 
+                0x000000001c014bd0                __cluster_text_start = .
+ *(.text.cluster)
+ *(.text.cluster.*)
+                0x000000001c014bd0                __cluster_text_end = .
+                0x000000001c014bd0                . = ALIGN (0x10)
+                0x000000001c014bd0                _etext = .
+ *(.lit)
+ *(.shdata)
+                0x000000001c014bd0                . = ALIGN (0x10)
+                0x000000001c014bd0                _endtext = .
+
+.cluster.text   0x000000001c014bd0      0x2fa
+ .cluster.text  0x000000001c014bd0      0x29c freertos/pmsis/implem/libpmsis_implem.a(cluster-cc.S.obj)
+                0x000000001c014bd0                pi_cl_entry
+                0x000000001c014d90                pi_cl_pe_set_stack
+                0x000000001c014e0a                pi_irq_cl_handler
+ .cluster.text  0x000000001c014e6c       0x5e freertos/pmsis/implem/libpmsis_implem.a(cluster-pe-team.S.obj)
+                0x000000001c014e6c                pi_cl_pe_entry
+                0x000000001c014eae                pi_cl_pe_wait_for_dispatch
+
+.rodata         0x000000001c014ecc      0x9cc
+                0x000000001c014ed0                . = ALIGN (0x10)
+ *fill*         0x000000001c014ecc        0x4 
+ *(.rodata)
+ *(.rodata.*)
+ .rodata.cluster_delegate.str1.4
+                0x000000001c014ed0       0x36 CMakeFiles/helloworld.dir/helloworld.c.obj
+ *fill*         0x000000001c014f06        0x2 
+ .rodata.cluster_helloworld.str1.4
+                0x000000001c014f08       0x16 CMakeFiles/helloworld.dir/helloworld.c.obj
+ *fill*         0x000000001c014f1e        0x2 
+ .rodata.main.str1.4
+                0x000000001c014f20       0x64 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rodata.system_setup_systick.str1.4
+                0x000000001c014f84       0x1a freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj)
+ *fill*         0x000000001c014f9e        0x2 
+ .rodata._isr_default.str1.4
+                0x000000001c014fa0        0x9 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+ *fill*         0x000000001c014fa9        0x3 
+ .rodata.pmp_exception_handler.str1.4
+                0x000000001c014fac       0x24 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+ .rodata.xip_data_exception_handler.str1.4
+                0x000000001c014fd0       0x33 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+ *fill*         0x000000001c015003        0x1 
+ .rodata.xip_insn_exception_handler.str1.4
+                0x000000001c015004       0x62 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+ *fill*         0x000000001c015066        0x2 
+ .rodata.pi_ref_fast_clock_frequency_set.str1.4
+                0x000000001c015068       0x16 freertos/pmsis/implem/libpmsis_implem.a(fll.c.obj)
+ *fill*         0x000000001c01507e        0x2 
+ .rodata.pi_alloc_fail.str1.4
+                0x000000001c015080       0x5b freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+ *fill*         0x000000001c0150db        0x1 
+ .rodata.pos_alloc_dump.str1.4
+                0x000000001c0150dc       0x97 freertos/pmsis/implem/libpmsis_implem.a(alloc.c.obj)
+                                         0x9b (taille avant relaxe)
+ *fill*         0x000000001c015173        0x1 
+ .rodata.pi_evt_kernel_init.str1.4
+                0x000000001c015174       0x2a freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(event_kernel.c.obj)
+ *fill*         0x000000001c01519e        0x2 
+ .rodata.__os_init.str1.4
+                0x000000001c0151a0       0x3c freertos/vendors/gwt/pmsis/backend/libfreertos_pmsis_backend.a(pmsis_backend_native_task_api.c.obj)
+ .rodata.xQueueGenericCreate.str1.4
+                0x000000001c0151dc       0x8e freertos/libfreertos.a(queue.c.obj)
+ *fill*         0x000000001c01526a        0x2 
+ .rodata.xQueueGenericCreateStatic.str1.4
+                0x000000001c01526c       0xc7 freertos/libfreertos.a(queue.c.obj)
+ *fill*         0x000000001c015333        0x1 
+ .rodata.xQueueGenericReset.str1.4
+                0x000000001c015334       0x57 freertos/libfreertos.a(queue.c.obj)
+ *fill*         0x000000001c01538b        0x1 
+ .rodata.xQueueGenericSend.str1.4
+                0x000000001c01538c       0xee freertos/libfreertos.a(queue.c.obj)
+ *fill*         0x000000001c01547a        0x2 
+ .rodata.xQueueGiveFromISR.str1.4
+                0x000000001c01547c       0x83 freertos/libfreertos.a(queue.c.obj)
+ *fill*         0x000000001c0154ff        0x1 
+ .rodata.xQueueReceive.str1.4
+                0x000000001c015500       0x5f freertos/libfreertos.a(queue.c.obj)
+ *fill*         0x000000001c01555f        0x1 
+ .rodata.xQueueSemaphoreTake.str1.4
+                0x000000001c015560       0x20 freertos/libfreertos.a(queue.c.obj)
+ .rodata.prvDeleteTCB.str1.4
+                0x000000001c015580       0x46 freertos/libfreertos.a(tasks.c.obj)
+ *fill*         0x000000001c0155c6        0x2 
+ .rodata.prvTaskIsTaskSuspended.str1.4
+                0x000000001c0155c8       0x57 freertos/libfreertos.a(tasks.c.obj)
+ *fill*         0x000000001c01561f        0x1 
+ .rodata.ulTaskGenericNotifyTake.str1.4
+                0x000000001c015620       0x36 freertos/libfreertos.a(tasks.c.obj)
+ *fill*         0x000000001c015656        0x2 
+ .rodata.vTaskDelete.str1.4
+                0x000000001c015658       0x1a freertos/libfreertos.a(tasks.c.obj)
+ *fill*         0x000000001c015672        0x2 
+ .rodata.vTaskPlaceOnEventList.str1.4
+                0x000000001c015674        0xc freertos/libfreertos.a(tasks.c.obj)
+ .rodata.vTaskPriorityDisinheritAfterTimeout.str1.4
+                0x000000001c015680       0x16 freertos/libfreertos.a(tasks.c.obj)
+ *fill*         0x000000001c015696        0x2 
+ .rodata.vTaskSetTimeOutState.str1.4
+                0x000000001c015698        0xa freertos/libfreertos.a(tasks.c.obj)
+ *fill*         0x000000001c0156a2        0x2 
+ .rodata.vTaskStartScheduler.str1.4
+                0x000000001c0156a4        0x5 freertos/libfreertos.a(tasks.c.obj)
+ *fill*         0x000000001c0156a9        0x3 
+ .rodata.vTaskSwitchContext.str1.4
+                0x000000001c0156ac        0xe freertos/libfreertos.a(tasks.c.obj)
+ *fill*         0x000000001c0156ba        0x2 
+ .rodata.xTaskCheckForTimeOut.str1.4
+                0x000000001c0156bc        0xe freertos/libfreertos.a(tasks.c.obj)
+ *fill*         0x000000001c0156ca        0x2 
+ .rodata.xTaskCreateStatic.str1.4
+                0x000000001c0156cc       0x49 freertos/libfreertos.a(tasks.c.obj)
+ *fill*         0x000000001c015715        0x3 
+ .rodata.xTaskGenericNotify.str1.4
+                0x000000001c015718       0xa6 freertos/libfreertos.a(tasks.c.obj)
+ *fill*         0x000000001c0157be        0x2 
+ .rodata.xTaskIncrementTick.str1.4
+                0x000000001c0157c0       0x2b freertos/libfreertos.a(tasks.c.obj)
+ *fill*         0x000000001c0157eb        0x1 
+ .rodata.xTaskPriorityDisinherit.str1.4
+                0x000000001c0157ec       0x2d freertos/libfreertos.a(tasks.c.obj)
+ *fill*         0x000000001c015819        0x3 
+ .rodata.xTaskRemoveFromEventList.str1.4
+                0x000000001c01581c        0xf freertos/libfreertos.a(tasks.c.obj)
+ *fill*         0x000000001c01582b        0x1 
+ .rodata.xTaskResumeAll.str1.4
+                0x000000001c01582c       0x15 freertos/libfreertos.a(tasks.c.obj)
+ *fill*         0x000000001c015841        0x3 
+ .rodata.vApplicationStackOverflowHook.str1.4
+                0x000000001c015844       0x21 freertos/libfreertos.a(FreeRTOS_util.c.obj)
+ *fill*         0x000000001c015865        0x3 
+ .rodata.vPrvAssertFailed.str1.4
+                0x000000001c015868       0x28 freertos/libfreertos.a(FreeRTOS_util.c.obj)
+                0x000000001c015890                . = ALIGN (0x10)
+ *(.srodata)
+ *(.srodata.*)
+ .srodata.cst4  0x000000001c015890        0x8 freertos/pmsis/implem/libpmsis_implem.a(fll.c.obj)
+ *(.eh_frame*)
+ *(.eh_frame.*)
+
+.rela.dyn       0x000000001c015898        0x0
+ .rela.text.cluster_delegate
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.cluster_helloworld
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.startup.main
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.text_l2.reset
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.text_l2
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.vectors_irq
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_udma_core_channels_init
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.system_init
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.system_init_finalize
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text._system_init_from_sleep_with_retention
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.deallocate_init_stack
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.system_setup_systick
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.system_core_clock_update
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.system_usermode_entry
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.system_exit
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.__io_lock
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.__io_unlock
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.__semihost_putc
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text._isr_default
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.uTaskCheckQuantum
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pmp_exception_handler
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xip_insn_exception_handler
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xip_data_exception_handler
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xip_irq_handler
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text._ill_insn_print
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.__pi_evt_push_locked
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.__pi_timer_clock_freq_get
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_timer_irq_set
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_timer_open
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.__do_ctors__
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.__do_dtors__
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text_l2  0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_ref_fast_clock_frequency_set
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.__pi_pmu_change_domain_power_async
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.__pi_pmu_shutdown
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.__pi_pmu_change_domain_power
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_pmu_domain_state_change
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.__pi_pmu_cluster_power_down
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.__pi_pmu_init
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_pmu_abb_set
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pos_alloc_init_l1
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pos_allocs_init
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pos_alloc_cluster
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pos_free_cluster
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_cl_l1_free
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_l2_free
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_fc_l1_free
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_l2_available_get
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_l2_malloc_dump
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_fc_l1_available_get
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_fc_l1_malloc_dump
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_alloc_fail
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_cl_l1_malloc
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_l2_malloc
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_fc_l1_malloc
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_cl_l1_available_get
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_cl_l1_malloc_dump
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.cluster.text
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_task_remote_enqueue
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_cluster_open
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_cl_l1_scratch_alloc
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_cluster_send_task_to_cl
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_cluster_enqueue_task
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_cl_send_task_to_fc
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_cl_workitem_disable
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pos_alloc_dump
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_bsp_init
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.__pi_evt_sig_init
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.__pi_evt_release
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.__pi_evt_wait
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_evt_push_delayed_us
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_evt_cancel_delayed_us
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_evt_kernel_push_event
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.callback_sigchld
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_evt_kernel_init
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_evt_kernel_main
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_evt_kernel_destroy
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.__os_init
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_time_get_us
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_evt_delayed_fifo_enqueue
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_time_wait_us
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_evt_delayed_fifo_remove
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.__os_thread_private_init
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.prvIsQueueEmpty
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.prvCopyDataToQueue
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.prvUnlockQueue
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xQueueGenericReset
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xQueueGenericCreateStatic
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xQueueGenericCreate
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xQueueGetMutexHolder
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xQueueGetMutexHolderFromISR
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xQueueCreateCountingSemaphoreStatic
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xQueueCreateCountingSemaphore
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xQueueGenericSend
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xQueueGiveMutexRecursive
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xQueueGenericSendFromISR
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xQueueGiveFromISR
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xQueueReceive
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xQueueSemaphoreTake
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xQueueTakeMutexRecursive
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xQueuePeek
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xQueueReceiveFromISR
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xQueuePeekFromISR
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.uxQueueMessagesWaiting
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.uxQueueSpacesAvailable
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.uxQueueMessagesWaitingFromISR
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xQueueIsQueueEmptyFromISR
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xQueueIsQueueFullFromISR
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.vQueueAddToRegistry
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pcQueueGetName
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.vQueueUnregisterQueue
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.vQueueDelete
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pi_current_stack_usage_get
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.prvAddNewTaskToReadyList
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.prvTaskIsTaskSuspended
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.prvInitialiseNewTask.isra.2
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.prvDeleteTCB
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.prvIdleTask
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.prvAddCurrentTaskToDelayedList
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xTaskCreateStatic
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.vTaskDelete
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.eTaskGetState
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.uxTaskPriorityGet
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.uxTaskPriorityGetFromISR
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.vTaskPrioritySet
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.vTaskResume
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xTaskResumeFromISR
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.vTaskStartScheduler
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.vTaskEndScheduler
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.pcTaskGetName
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xTaskGetIdleTaskHandle
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xTaskIncrementTick
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xTaskResumeAll
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xTaskDelayUntil
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.vTaskDelay
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xTaskCatchUpTicks
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.vTaskSwitchContext
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.vTaskSuspend
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.vTaskPlaceOnEventList
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.vTaskPlaceOnUnorderedEventList
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xTaskRemoveFromEventList
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.vTaskRemoveFromUnorderedEventList
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.vTaskSetTimeOutState
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xTaskCheckForTimeOut
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xTaskPriorityInherit
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xTaskPriorityDisinherit
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.vTaskPriorityDisinheritAfterTimeout
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.ulTaskGenericNotifyTake
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xTaskGenericNotifyWait
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xTaskGenericNotify
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xTaskGenericNotifyFromISR
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.vTaskGenericNotifyGiveFromISR
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.xTaskGenericNotifyStateClear
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text.ulTaskGenericNotifyValueClear
+                0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .rela.text     0x000000001c015898        0x0 CMakeFiles/helloworld.dir/helloworld.c.obj
+
+.shbss          0x000000001c015898        0x8
+                0x000000001c0158a0                . = ALIGN (0x10)
+ *fill*         0x000000001c015898        0x8 
+ *(.shbss)
+ *(.shbss.*)
+
+.data           0x000000001c0158a0       0xad
+                0x000000001c0158a0                . = ALIGN (0x10)
+                0x000000001c0158a0                __data_start__ = .
+ *(.data)
+ .data          0x000000001c0158a0        0x4 freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj)
+                0x000000001c0158a0                __sp_before_light_sleep__
+ .data          0x000000001c0158a4        0x5 freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj)
+ *fill*         0x000000001c0158a9        0x3 
+ .data          0x000000001c0158ac       0x80 freertos/pmsis/implem/libpmsis_implem.a(cluster.c.obj)
+                0x000000001c0158ac                pi_irq_cl_handlers
+ *(.data.*)
+ .data._ecall_vector
+                0x000000001c01592c       0x14 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+                0x000000001c01592c                _ecall_vector
+ .data.g_event_kernel_name_s
+                0x000000001c015940        0xd freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(event_kernel.c.obj)
+ *(.l2_data)
+ *(.l2_data.*)
+ *(.data_fc_shared)
+ *(.data_fc_shared.*)
+ *(.heapl2ram)
+ *(.heapl2ram.*)
+                0x000000001c01594d                __data_end__ = .
+
+.bss            0x000000001c015950      0x810
+                0x000000001c015950                . = ALIGN (0x10)
+                0x000000001c015950                __bss_start__ = .
+ *(.bss)
+ *(.bss.*)
+ .bss.g_printf_semihost_buffer
+                0x000000001c015950       0x81 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap_io.c.obj)
+ *fill*         0x000000001c0159d1        0x3 
+ .bss.printf_buffer
+                0x000000001c0159d4      0x489 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap_io.c.obj)
+ *fill*         0x000000001c015e5d        0x3 
+ .bss.printf_buffer_index
+                0x000000001c015e60       0x24 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap_io.c.obj)
+ .bss.g_timer_data
+                0x000000001c015e84       0x30 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+ .bss.pos_alloc_account_0
+                0x000000001c015eb4       0x30 freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+ .bss.pos_alloc_account_1
+                0x000000001c015ee4       0x30 freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+ .bss.pxReadyTasksLists
+                0x000000001c015f14       0x3c freertos/libfreertos.a(tasks.c.obj)
+ .bss.xDelayedTaskList1
+                0x000000001c015f50       0x14 freertos/libfreertos.a(tasks.c.obj)
+ .bss.xDelayedTaskList2
+                0x000000001c015f64       0x14 freertos/libfreertos.a(tasks.c.obj)
+ .bss.xPendingReadyList
+                0x000000001c015f78       0x14 freertos/libfreertos.a(tasks.c.obj)
+ .bss.xSuspendedTaskList
+                0x000000001c015f8c       0x14 freertos/libfreertos.a(tasks.c.obj)
+ .bss.xTasksWaitingTermination
+                0x000000001c015fa0       0x14 freertos/libfreertos.a(tasks.c.obj)
+ *(.sbss)
+ *(.sbss.*)
+ .sbss.__stack_fc_end__
+                0x000000001c015fb4        0x4 freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj)
+                0x000000001c015fb4                __stack_fc_end__
+ .sbss.__stack_fc_start__
+                0x000000001c015fb8        0x4 freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj)
+                0x000000001c015fb8                __stack_fc_start__
+ .sbss.tick_rate
+                0x000000001c015fbc        0x4 freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj)
+ .sbss.g_freertos_scheduler_started
+                0x000000001c015fc0        0x1 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap_io.c.obj)
+                0x000000001c015fc0                g_freertos_scheduler_started
+ *fill*         0x000000001c015fc1        0x3 
+ .sbss.g_printf_mutex
+                0x000000001c015fc4        0x4 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap_io.c.obj)
+                0x000000001c015fc4                g_printf_mutex
+ .sbss.g_printf_semihost_index
+                0x000000001c015fc8        0x1 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap_io.c.obj)
+ *fill*         0x000000001c015fc9        0x3 
+ .sbss.g_xip_tlb_data_handler
+                0x000000001c015fcc        0x4 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+                0x000000001c015fcc                g_xip_tlb_data_handler
+ .sbss.pxCurrentTCB
+                0x000000001c015fd0        0x4 freertos/libfreertos.a(tasks.c.obj)
+                0x000000001c015fd0                pxCurrentTCB
+ .sbss.pxDelayedTaskList
+                0x000000001c015fd4        0x4 freertos/libfreertos.a(tasks.c.obj)
+ .sbss.pxOverflowDelayedTaskList
+                0x000000001c015fd8        0x4 freertos/libfreertos.a(tasks.c.obj)
+ .sbss.uxCurrentNumberOfTasks
+                0x000000001c015fdc        0x4 freertos/libfreertos.a(tasks.c.obj)
+ .sbss.uxDeletedTasksWaitingCleanUp
+                0x000000001c015fe0        0x4 freertos/libfreertos.a(tasks.c.obj)
+ .sbss.uxSchedulerSuspended
+                0x000000001c015fe4        0x4 freertos/libfreertos.a(tasks.c.obj)
+ .sbss.uxTaskNumber
+                0x000000001c015fe8        0x4 freertos/libfreertos.a(tasks.c.obj)
+ .sbss.uxTopReadyPriority
+                0x000000001c015fec        0x4 freertos/libfreertos.a(tasks.c.obj)
+ .sbss.xIdleTaskHandle
+                0x000000001c015ff0        0x4 freertos/libfreertos.a(tasks.c.obj)
+ .sbss.xNextTaskUnblockTime
+                0x000000001c015ff4        0x4 freertos/libfreertos.a(tasks.c.obj)
+ .sbss.xNumOfOverflows
+                0x000000001c015ff8        0x4 freertos/libfreertos.a(tasks.c.obj)
+ .sbss.xPendedTicks
+                0x000000001c015ffc        0x4 freertos/libfreertos.a(tasks.c.obj)
+ .sbss.xSchedulerRunning
+                0x000000001c016000        0x4 freertos/libfreertos.a(tasks.c.obj)
+ .sbss.xTickCount
+                0x000000001c016004        0x4 freertos/libfreertos.a(tasks.c.obj)
+ .sbss.xYieldPending
+                0x000000001c016008        0x4 freertos/libfreertos.a(tasks.c.obj)
+ .sbss.ulCriticalNesting
+                0x000000001c01600c        0x4 freertos/freertos_kernel/portable/GCC/RI5CY-GAP9/libri5cy-gap9.a(port.c.obj)
+                0x000000001c01600c                ulCriticalNesting
+ *(COMMON)
+ COMMON         0x000000001c016010        0xc freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj)
+                0x000000001c016010                sys_timer_hi_prec
+ COMMON         0x000000001c01601c       0xc0 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+                0x000000001c01601c                pi_exception_vector
+                0x000000001c01605c                pi_irq_handler_wrapper_vector
+ COMMON         0x000000001c0160dc        0x4 freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj)
+                0x000000001c0160dc                __pi_pmu_domains_on
+ COMMON         0x000000001c0160e0       0x48 freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+                0x000000001c0160e0                pos_alloc_l1
+                0x000000001c0160f8                pos_alloc_l2
+ COMMON         0x000000001c016128       0x2c freertos/pmsis/implem/libpmsis_implem.a(cluster.c.obj)
+                0x000000001c016128                pi_cluster
+                0x000000001c016160                . = ALIGN (0x10)
+ *fill*         0x000000001c016154        0xc 
+                0x000000001c016160                __bss_end__ = .
+                0x000000001c016160                __l1_preload_start_inL2 = .
+
+.data_tiny_l1   0x0000000000000004       0x4c address de chargement 0x000000001c016160
+                0x0000000000000004                . = ALIGN (0x4)
+                0x0000000000000004                __l1_preload_start = .
+ *(.data_tiny_l1)
+ *(.data_tiny_l1.*)
+ *(.data_alias_l1)
+ *(.data_alias_l1.*)
+ *(.l1clusterTiny)
+ .l1clusterTiny
+                0x0000000000000004       0x44 freertos/pmsis/implem/libpmsis_implem.a(cluster.c.obj)
+                0x0000000000000004                __pi_cluster_pool
+                0x0000000000000038                __pi_cluster_pending_task
+                0x000000000000003c                __pi_cluster_first_dma_copy
+                0x0000000000000040                __pi_cluster_nb_active_pe
+                0x0000000000000044                __pi_cluster_last_dma_copy
+ *(.l1clusterTiny.*)
+                0x0000000000000050                . = ALIGN (0x10)
+ *fill*         0x0000000000000048        0x8 
+                0x0000000000000050                __data_tiny_l1_end = .
+
+.l1cluster_g    0x0000000010000050       0x10 address de chargement 0x000000001c0161ac
+                0x0000000010000050                . = ALIGN (0x10)
+                0x0000000010000050                __printf_lock_ptr_l1 = .
+                0x0000000010000054                . = (__printf_lock_ptr_l1 + 0x4)
+ *fill*         0x0000000010000050        0x4 
+ *(.l1cluster_g)
+ .l1cluster_g   0x0000000010000054        0x5 freertos/pmsis/implem/libpmsis_implem.a(cluster.c.obj)
+                0x0000000010000054                __pi_cluster_fc_task_lock
+                0x0000000010000058                __pi_cluster_exec_mode
+ *(.l1cluster_g.*)
+ *(.data_l1)
+ *(.data_l1.*)
+ *(.heapsram)
+ *(.heapsram.*)
+                0x0000000010000060                . = ALIGN (0x10)
+ *fill*         0x0000000010000059        0x7 
+                0x0000000010000060                __l1_preload_end = .
+                0x0000000010000070                __l1_heapsram_start = (__l1_preload_end + 0x10)
+                0x000000000001ff90                __l1_heapsram_size = ((ORIGIN (L1) + LENGTH (L1)) - __l1_heapsram_start)
+                0x0000000010020000                __l1_heapsram_end = (ORIGIN (L1) + LENGTH (L1))
+                0x000000000000005c                __l1_preload_size = (SIZEOF (.data_tiny_l1) + SIZEOF (.l1cluster_g))
+                0x000000001c0161bc                __heapl2ram_start = (LOADADDR (.l1cluster_g) + SIZEOF (.l1cluster_g))
+                0x0000000000179e44                __heapl2ram_size = ((ORIGIN (L2_shared) + LENGTH (L2_shared)) - __heapl2ram_start)
+OUTPUT(helloworld elf32-littleriscv)
+
+.debug_frame    0x0000000000000000     0x3a94
+ .debug_frame   0x0000000000000000       0x84 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .debug_frame   0x0000000000000084      0x20c freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj)
+ .debug_frame   0x0000000000000290      0x1e8 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap_io.c.obj)
+ .debug_frame   0x0000000000000478      0x1f0 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+ .debug_frame   0x0000000000000668      0x374 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+ .debug_frame   0x00000000000009dc       0x20 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(fc_event.c.obj)
+ .debug_frame   0x00000000000009fc       0xb0 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(ctors_dtors.c.obj)
+ .debug_frame   0x0000000000000aac      0x1d0 freertos/pmsis/implem/libpmsis_implem.a(fll.c.obj)
+ .debug_frame   0x0000000000000c7c      0x2f0 freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj)
+ .debug_frame   0x0000000000000f6c       0x54 freertos/pmsis/implem/libpmsis_implem.a(maestro_irq.c.obj)
+ .debug_frame   0x0000000000000fc0      0x3bc freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+ .debug_frame   0x000000000000137c       0xa4 freertos/pmsis/implem/libpmsis_implem.a(pi_malloc.c.obj)
+ .debug_frame   0x0000000000001420      0x298 freertos/pmsis/implem/libpmsis_implem.a(cluster.c.obj)
+ .debug_frame   0x00000000000016b8      0x22c freertos/pmsis/implem/libpmsis_implem.a(alloc.c.obj)
+ .debug_frame   0x00000000000018e4       0x3c freertos/pmsis/bsp/libbsp.a(bsp.c.obj)
+ .debug_frame   0x0000000000001920      0x24c freertos/vendors/gwt/libs/printf/libfreertos_printf.a(printf.c.obj)
+ .debug_frame   0x0000000000001b6c       0x20 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(device.c.obj)
+ .debug_frame   0x0000000000001b8c      0x1b8 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(pmsis_evt.c.obj)
+ .debug_frame   0x0000000000001d44      0x2d4 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(event_kernel.c.obj)
+ .debug_frame   0x0000000000002018      0x1c0 freertos/vendors/gwt/pmsis/backend/libfreertos_pmsis_backend.a(pmsis_backend_native_task_api.c.obj)
+ .debug_frame   0x00000000000021d8      0x818 freertos/libfreertos.a(queue.c.obj)
+ .debug_frame   0x00000000000029f0      0xe68 freertos/libfreertos.a(tasks.c.obj)
+ .debug_frame   0x0000000000003858       0x9c freertos/libfreertos.a(FreeRTOS_util.c.obj)
+ .debug_frame   0x00000000000038f4       0x60 freertos/libfreertos.a(list.c.obj)
+ .debug_frame   0x0000000000003954       0x80 freertos/freertos_kernel/portable/GCC/RI5CY-GAP9/libri5cy-gap9.a(port.c.obj)
+ .debug_frame   0x00000000000039d4       0xc0 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(pad.c.obj)
+
+.debug_info     0x0000000000000000    0x2f5be
+ .debug_info    0x0000000000000000     0x1ad3 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .debug_info    0x0000000000001ad3       0xdf freertos/vendors/gwt/gap9/libfreertos_gap9.a(startup_gap9.S.obj)
+ .debug_info    0x0000000000001bb2     0x2b9a freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj)
+ .debug_info    0x000000000000474c     0x234c freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap_io.c.obj)
+ .debug_info    0x0000000000006a98       0xdf freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_iet.S.obj)
+ .debug_info    0x0000000000006b77     0x1d57 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+ .debug_info    0x00000000000088ce     0x3e21 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+ .debug_info    0x000000000000c6ef       0xef freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer_asm.S.obj)
+ .debug_info    0x000000000000c7de       0xe5 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(asm_util.S.obj)
+ .debug_info    0x000000000000c8c3      0xad9 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(fc_event.c.obj)
+ .debug_info    0x000000000000d39c     0x13e2 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(ctors_dtors.c.obj)
+ .debug_info    0x000000000000e77e     0x2808 freertos/pmsis/implem/libpmsis_implem.a(fll.c.obj)
+ .debug_info    0x0000000000010f86     0x2782 freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj)
+ .debug_info    0x0000000000013708     0x1569 freertos/pmsis/implem/libpmsis_implem.a(maestro_irq.c.obj)
+ .debug_info    0x0000000000014c71     0x2551 freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+ .debug_info    0x00000000000171c2      0xabc freertos/pmsis/implem/libpmsis_implem.a(pi_malloc.c.obj)
+ .debug_info    0x0000000000017c7e       0xd7 freertos/pmsis/implem/libpmsis_implem.a(cluster-cc.S.obj)
+ .debug_info    0x0000000000017d55     0x2e49 freertos/pmsis/implem/libpmsis_implem.a(cluster.c.obj)
+ .debug_info    0x000000000001ab9e       0xdc freertos/pmsis/implem/libpmsis_implem.a(cluster-pe-team.S.obj)
+ .debug_info    0x000000000001ac7a     0x133e freertos/pmsis/implem/libpmsis_implem.a(udma_core.c.obj)
+ .debug_info    0x000000000001bfb8     0x1b72 freertos/pmsis/implem/libpmsis_implem.a(alloc.c.obj)
+ .debug_info    0x000000000001db2a     0x133f freertos/pmsis/bsp/libbsp.a(bsp.c.obj)
+ .debug_info    0x000000000001ee69      0xacb freertos/vendors/gwt/libs/printf/libfreertos_printf.a(printf.c.obj)
+ .debug_info    0x000000000001f934     0x14e4 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(device.c.obj)
+ .debug_info    0x0000000000020e18     0x1d8c freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(pmsis_evt.c.obj)
+ .debug_info    0x0000000000022ba4     0x28bd freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(event_kernel.c.obj)
+ .debug_info    0x0000000000025461     0x1ecb freertos/vendors/gwt/pmsis/backend/libfreertos_pmsis_backend.a(pmsis_backend_native_task_api.c.obj)
+ .debug_info    0x000000000002732c     0x15db freertos/libfreertos.a(queue.c.obj)
+ .debug_info    0x0000000000028907     0x26b2 freertos/libfreertos.a(tasks.c.obj)
+ .debug_info    0x000000000002afb9     0x1a19 freertos/libfreertos.a(FreeRTOS_util.c.obj)
+ .debug_info    0x000000000002c9d2      0x2c6 freertos/libfreertos.a(list.c.obj)
+ .debug_info    0x000000000002cc98      0x102 freertos/freertos_kernel/portable/GCC/RI5CY-GAP9/libri5cy-gap9.a(port_asm.S.obj)
+ .debug_info    0x000000000002cd9a      0x29a freertos/freertos_kernel/portable/GCC/RI5CY-GAP9/libri5cy-gap9.a(port.c.obj)
+ .debug_info    0x000000000002d034     0x258a freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(pad.c.obj)
+
+.debug_abbrev   0x0000000000000000     0x58ba
+ .debug_abbrev  0x0000000000000000      0x34b CMakeFiles/helloworld.dir/helloworld.c.obj
+ .debug_abbrev  0x000000000000034b       0x12 freertos/vendors/gwt/gap9/libfreertos_gap9.a(startup_gap9.S.obj)
+ .debug_abbrev  0x000000000000035d      0x48b freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj)
+ .debug_abbrev  0x00000000000007e8      0x496 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap_io.c.obj)
+ .debug_abbrev  0x0000000000000c7e       0x14 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_iet.S.obj)
+ .debug_abbrev  0x0000000000000c92      0x36d freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+ .debug_abbrev  0x0000000000000fff      0x57d freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+ .debug_abbrev  0x000000000000157c       0x14 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer_asm.S.obj)
+ .debug_abbrev  0x0000000000001590       0x14 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(asm_util.S.obj)
+ .debug_abbrev  0x00000000000015a4      0x1af freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(fc_event.c.obj)
+ .debug_abbrev  0x0000000000001753      0x228 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(ctors_dtors.c.obj)
+ .debug_abbrev  0x000000000000197b      0x483 freertos/pmsis/implem/libpmsis_implem.a(fll.c.obj)
+ .debug_abbrev  0x0000000000001dfe      0x4be freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj)
+ .debug_abbrev  0x00000000000022bc      0x27c freertos/pmsis/implem/libpmsis_implem.a(maestro_irq.c.obj)
+ .debug_abbrev  0x0000000000002538      0x446 freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+ .debug_abbrev  0x000000000000297e      0x20b freertos/pmsis/implem/libpmsis_implem.a(pi_malloc.c.obj)
+ .debug_abbrev  0x0000000000002b89       0x14 freertos/pmsis/implem/libpmsis_implem.a(cluster-cc.S.obj)
+ .debug_abbrev  0x0000000000002b9d      0x481 freertos/pmsis/implem/libpmsis_implem.a(cluster.c.obj)
+ .debug_abbrev  0x000000000000301e       0x14 freertos/pmsis/implem/libpmsis_implem.a(cluster-pe-team.S.obj)
+ .debug_abbrev  0x0000000000003032      0x1e0 freertos/pmsis/implem/libpmsis_implem.a(udma_core.c.obj)
+ .debug_abbrev  0x0000000000003212      0x3e2 freertos/pmsis/implem/libpmsis_implem.a(alloc.c.obj)
+ .debug_abbrev  0x00000000000035f4      0x1f5 freertos/pmsis/bsp/libbsp.a(bsp.c.obj)
+ .debug_abbrev  0x00000000000037e9      0x25a freertos/vendors/gwt/libs/printf/libfreertos_printf.a(printf.c.obj)
+ .debug_abbrev  0x0000000000003a43      0x1f1 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(device.c.obj)
+ .debug_abbrev  0x0000000000003c34      0x3a3 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(pmsis_evt.c.obj)
+ .debug_abbrev  0x0000000000003fd7      0x47e freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(event_kernel.c.obj)
+ .debug_abbrev  0x0000000000004455      0x3ba freertos/vendors/gwt/pmsis/backend/libfreertos_pmsis_backend.a(pmsis_backend_native_task_api.c.obj)
+ .debug_abbrev  0x000000000000480f      0x2d9 freertos/libfreertos.a(queue.c.obj)
+ .debug_abbrev  0x0000000000004ae8      0x440 freertos/libfreertos.a(tasks.c.obj)
+ .debug_abbrev  0x0000000000004f28      0x358 freertos/libfreertos.a(FreeRTOS_util.c.obj)
+ .debug_abbrev  0x0000000000005280      0x101 freertos/libfreertos.a(list.c.obj)
+ .debug_abbrev  0x0000000000005381       0x14 freertos/freertos_kernel/portable/GCC/RI5CY-GAP9/libri5cy-gap9.a(port_asm.S.obj)
+ .debug_abbrev  0x0000000000005395      0x173 freertos/freertos_kernel/portable/GCC/RI5CY-GAP9/libri5cy-gap9.a(port.c.obj)
+ .debug_abbrev  0x0000000000005508      0x3b2 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(pad.c.obj)
+
+.debug_loc      0x0000000000000000     0x9dff
+ .debug_loc     0x0000000000000000       0xd6 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .debug_loc     0x00000000000000d6      0x2d4 freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj)
+ .debug_loc     0x00000000000003aa      0x289 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap_io.c.obj)
+ .debug_loc     0x0000000000000633      0x23e freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+ .debug_loc     0x0000000000000871      0xff5 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+ .debug_loc     0x0000000000001866       0x1e freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(fc_event.c.obj)
+ .debug_loc     0x0000000000001884       0xfe freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(ctors_dtors.c.obj)
+ .debug_loc     0x0000000000001982      0x74b freertos/pmsis/implem/libpmsis_implem.a(fll.c.obj)
+ .debug_loc     0x00000000000020cd      0x8ee freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj)
+ .debug_loc     0x00000000000029bb      0x1a0 freertos/pmsis/implem/libpmsis_implem.a(maestro_irq.c.obj)
+ .debug_loc     0x0000000000002b5b      0x75d freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+ .debug_loc     0x00000000000032b8      0x14c freertos/pmsis/implem/libpmsis_implem.a(pi_malloc.c.obj)
+ .debug_loc     0x0000000000003404      0x914 freertos/pmsis/implem/libpmsis_implem.a(cluster.c.obj)
+ .debug_loc     0x0000000000003d18      0x840 freertos/pmsis/implem/libpmsis_implem.a(alloc.c.obj)
+ .debug_loc     0x0000000000004558       0x2c freertos/pmsis/bsp/libbsp.a(bsp.c.obj)
+ .debug_loc     0x0000000000004584      0xf31 freertos/vendors/gwt/libs/printf/libfreertos_printf.a(printf.c.obj)
+ .debug_loc     0x00000000000054b5      0x32b freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(pmsis_evt.c.obj)
+ .debug_loc     0x00000000000057e0      0xcc0 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(event_kernel.c.obj)
+ .debug_loc     0x00000000000064a0      0x41f freertos/vendors/gwt/pmsis/backend/libfreertos_pmsis_backend.a(pmsis_backend_native_task_api.c.obj)
+ .debug_loc     0x00000000000068bf     0x1442 freertos/libfreertos.a(queue.c.obj)
+ .debug_loc     0x0000000000007d01     0x1b7e freertos/libfreertos.a(tasks.c.obj)
+ .debug_loc     0x000000000000987f      0x11c freertos/libfreertos.a(FreeRTOS_util.c.obj)
+ .debug_loc     0x000000000000999b       0x86 freertos/libfreertos.a(list.c.obj)
+ .debug_loc     0x0000000000009a21       0x47 freertos/freertos_kernel/portable/GCC/RI5CY-GAP9/libri5cy-gap9.a(port.c.obj)
+ .debug_loc     0x0000000000009a68      0x397 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(pad.c.obj)
+
+.debug_aranges  0x0000000000000000      0xd58
+ .debug_aranges
+                0x0000000000000000       0x30 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .debug_aranges
+                0x0000000000000030       0x30 freertos/vendors/gwt/gap9/libfreertos_gap9.a(startup_gap9.S.obj)
+ .debug_aranges
+                0x0000000000000060       0x88 freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj)
+ .debug_aranges
+                0x00000000000000e8       0x68 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap_io.c.obj)
+ .debug_aranges
+                0x0000000000000150       0x20 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_iet.S.obj)
+ .debug_aranges
+                0x0000000000000170       0x90 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+ .debug_aranges
+                0x0000000000000200       0xe0 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+ .debug_aranges
+                0x00000000000002e0       0x20 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer_asm.S.obj)
+ .debug_aranges
+                0x0000000000000300       0x20 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(asm_util.S.obj)
+ .debug_aranges
+                0x0000000000000320       0x20 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(fc_event.c.obj)
+ .debug_aranges
+                0x0000000000000340       0x28 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(ctors_dtors.c.obj)
+ .debug_aranges
+                0x0000000000000368       0x70 freertos/pmsis/implem/libpmsis_implem.a(fll.c.obj)
+ .debug_aranges
+                0x00000000000003d8       0xa0 freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj)
+ .debug_aranges
+                0x0000000000000478       0x20 freertos/pmsis/implem/libpmsis_implem.a(maestro_irq.c.obj)
+ .debug_aranges
+                0x0000000000000498       0xc8 freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+ .debug_aranges
+                0x0000000000000560       0x40 freertos/pmsis/implem/libpmsis_implem.a(pi_malloc.c.obj)
+ .debug_aranges
+                0x00000000000005a0       0x20 freertos/pmsis/implem/libpmsis_implem.a(cluster-cc.S.obj)
+ .debug_aranges
+                0x00000000000005c0       0x88 freertos/pmsis/implem/libpmsis_implem.a(cluster.c.obj)
+ .debug_aranges
+                0x0000000000000648       0x20 freertos/pmsis/implem/libpmsis_implem.a(cluster-pe-team.S.obj)
+ .debug_aranges
+                0x0000000000000668       0x18 freertos/pmsis/implem/libpmsis_implem.a(udma_core.c.obj)
+ .debug_aranges
+                0x0000000000000680       0x70 freertos/pmsis/implem/libpmsis_implem.a(alloc.c.obj)
+ .debug_aranges
+                0x00000000000006f0       0x20 freertos/pmsis/bsp/libbsp.a(bsp.c.obj)
+ .debug_aranges
+                0x0000000000000710       0x78 freertos/vendors/gwt/libs/printf/libfreertos_printf.a(printf.c.obj)
+ .debug_aranges
+                0x0000000000000788       0x20 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(device.c.obj)
+ .debug_aranges
+                0x00000000000007a8       0x88 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(pmsis_evt.c.obj)
+ .debug_aranges
+                0x0000000000000830       0x80 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(event_kernel.c.obj)
+ .debug_aranges
+                0x00000000000008b0       0x58 freertos/vendors/gwt/pmsis/backend/libfreertos_pmsis_backend.a(pmsis_backend_native_task_api.c.obj)
+ .debug_aranges
+                0x0000000000000908      0x118 freertos/libfreertos.a(queue.c.obj)
+ .debug_aranges
+                0x0000000000000a20      0x1d8 freertos/libfreertos.a(tasks.c.obj)
+ .debug_aranges
+                0x0000000000000bf8       0x40 freertos/libfreertos.a(FreeRTOS_util.c.obj)
+ .debug_aranges
+                0x0000000000000c38       0x40 freertos/libfreertos.a(list.c.obj)
+ .debug_aranges
+                0x0000000000000c78       0x20 freertos/freertos_kernel/portable/GCC/RI5CY-GAP9/libri5cy-gap9.a(port_asm.S.obj)
+ .debug_aranges
+                0x0000000000000c98       0x50 freertos/freertos_kernel/portable/GCC/RI5CY-GAP9/libri5cy-gap9.a(port.c.obj)
+ .debug_aranges
+                0x0000000000000ce8       0x70 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(pad.c.obj)
+
+.debug_line     0x0000000000000000    0x195c5
+ .debug_line    0x0000000000000000      0xd24 CMakeFiles/helloworld.dir/helloworld.c.obj
+ .debug_line    0x0000000000000d24      0x3df freertos/vendors/gwt/gap9/libfreertos_gap9.a(startup_gap9.S.obj)
+ .debug_line    0x0000000000001103     0x151e freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj)
+ .debug_line    0x0000000000002621     0x1190 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap_io.c.obj)
+ .debug_line    0x00000000000037b1      0x4b6 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_iet.S.obj)
+ .debug_line    0x0000000000003c67     0x1070 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+ .debug_line    0x0000000000004cd7     0x1b68 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+ .debug_line    0x000000000000683f      0x116 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer_asm.S.obj)
+ .debug_line    0x0000000000006955       0xf5 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(asm_util.S.obj)
+ .debug_line    0x0000000000006a4a      0x354 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(fc_event.c.obj)
+ .debug_line    0x0000000000006d9e      0xa56 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(ctors_dtors.c.obj)
+ .debug_line    0x00000000000077f4     0x113e freertos/pmsis/implem/libpmsis_implem.a(fll.c.obj)
+ .debug_line    0x0000000000008932     0x1475 freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj)
+ .debug_line    0x0000000000009da7      0xb78 freertos/pmsis/implem/libpmsis_implem.a(maestro_irq.c.obj)
+ .debug_line    0x000000000000a91f     0x12bf freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+ .debug_line    0x000000000000bbde      0x22d freertos/pmsis/implem/libpmsis_implem.a(pi_malloc.c.obj)
+ .debug_line    0x000000000000be0b      0x4bc freertos/pmsis/implem/libpmsis_implem.a(cluster-cc.S.obj)
+ .debug_line    0x000000000000c2c7     0x17a1 freertos/pmsis/implem/libpmsis_implem.a(cluster.c.obj)
+ .debug_line    0x000000000000da68       0xfc freertos/pmsis/implem/libpmsis_implem.a(cluster-pe-team.S.obj)
+ .debug_line    0x000000000000db64      0x9bb freertos/pmsis/implem/libpmsis_implem.a(udma_core.c.obj)
+ .debug_line    0x000000000000e51f      0xfa8 freertos/pmsis/implem/libpmsis_implem.a(alloc.c.obj)
+ .debug_line    0x000000000000f4c7      0x9d2 freertos/pmsis/bsp/libbsp.a(bsp.c.obj)
+ .debug_line    0x000000000000fe99      0x85c freertos/vendors/gwt/libs/printf/libfreertos_printf.a(printf.c.obj)
+ .debug_line    0x00000000000106f5      0x9e4 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(device.c.obj)
+ .debug_line    0x00000000000110d9      0xf34 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(pmsis_evt.c.obj)
+ .debug_line    0x000000000001200d     0x1319 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(event_kernel.c.obj)
+ .debug_line    0x0000000000013326      0xec9 freertos/vendors/gwt/pmsis/backend/libfreertos_pmsis_backend.a(pmsis_backend_native_task_api.c.obj)
+ .debug_line    0x00000000000141ef     0x12c3 freertos/libfreertos.a(queue.c.obj)
+ .debug_line    0x00000000000154b2     0x1c91 freertos/libfreertos.a(tasks.c.obj)
+ .debug_line    0x0000000000017143      0xce5 freertos/libfreertos.a(FreeRTOS_util.c.obj)
+ .debug_line    0x0000000000017e28      0x396 freertos/libfreertos.a(list.c.obj)
+ .debug_line    0x00000000000181be       0xb9 freertos/freertos_kernel/portable/GCC/RI5CY-GAP9/libri5cy-gap9.a(port_asm.S.obj)
+ .debug_line    0x0000000000018277      0x42f freertos/freertos_kernel/portable/GCC/RI5CY-GAP9/libri5cy-gap9.a(port.c.obj)
+ .debug_line    0x00000000000186a6      0xf1f freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(pad.c.obj)
+
+.debug_str      0x0000000000000000     0x7bd4
+ .debug_str     0x0000000000000000      0xf26 CMakeFiles/helloworld.dir/helloworld.c.obj
+                                       0x10da (taille avant relaxe)
+ .debug_str     0x0000000000000f26      0xd6f freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj)
+                                       0x1c21 (taille avant relaxe)
+ .debug_str     0x0000000000001c95      0x65d freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap_io.c.obj)
+                                       0x178c (taille avant relaxe)
+ .debug_str     0x00000000000022f2      0x6ac freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+                                       0x1528 (taille avant relaxe)
+ .debug_str     0x000000000000299e      0x629 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+                                       0x17e5 (taille avant relaxe)
+ .debug_str     0x0000000000002fc7       0x7f freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(fc_event.c.obj)
+                                        0x74d (taille avant relaxe)
+ .debug_str     0x0000000000003046       0xd3 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(ctors_dtors.c.obj)
+                                        0xe73 (taille avant relaxe)
+ .debug_str     0x0000000000003119      0x4a6 freertos/pmsis/implem/libpmsis_implem.a(fll.c.obj)
+                                       0x16bf (taille avant relaxe)
+ .debug_str     0x00000000000035bf      0x751 freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj)
+                                       0x17de (taille avant relaxe)
+ .debug_str     0x0000000000003d10       0x70 freertos/pmsis/implem/libpmsis_implem.a(maestro_irq.c.obj)
+                                       0x1017 (taille avant relaxe)
+ .debug_str     0x0000000000003d80      0x4b2 freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+                                       0x1486 (taille avant relaxe)
+ .debug_str     0x0000000000004232       0xd4 freertos/pmsis/implem/libpmsis_implem.a(pi_malloc.c.obj)
+                                        0x714 (taille avant relaxe)
+ .debug_str     0x0000000000004306      0x4d5 freertos/pmsis/implem/libpmsis_implem.a(cluster.c.obj)
+                                       0x19fc (taille avant relaxe)
+ .debug_str     0x00000000000047db       0x56 freertos/pmsis/implem/libpmsis_implem.a(udma_core.c.obj)
+                                        0xdec (taille avant relaxe)
+ .debug_str     0x0000000000004831      0x240 freertos/pmsis/implem/libpmsis_implem.a(alloc.c.obj)
+                                       0x10b5 (taille avant relaxe)
+ .debug_str     0x0000000000004a71       0xa2 freertos/pmsis/bsp/libbsp.a(bsp.c.obj)
+                                        0xde3 (taille avant relaxe)
+ .debug_str     0x0000000000004b13      0x1b3 freertos/vendors/gwt/libs/printf/libfreertos_printf.a(printf.c.obj)
+                                        0x41b (taille avant relaxe)
+ .debug_str     0x0000000000004cc6       0xcb freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(device.c.obj)
+                                        0xe8b (taille avant relaxe)
+ .debug_str     0x0000000000004d91      0x24f freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(pmsis_evt.c.obj)
+                                       0x1354 (taille avant relaxe)
+ .debug_str     0x0000000000004fe0      0x4e4 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(event_kernel.c.obj)
+                                       0x1610 (taille avant relaxe)
+ .debug_str     0x00000000000054c4      0x1fa freertos/vendors/gwt/pmsis/backend/libfreertos_pmsis_backend.a(pmsis_backend_native_task_api.c.obj)
+                                       0x130a (taille avant relaxe)
+ .debug_str     0x00000000000056be      0x77c freertos/libfreertos.a(queue.c.obj)
+                                        0xc39 (taille avant relaxe)
+ .debug_str     0x0000000000005e3a      0xca6 freertos/libfreertos.a(tasks.c.obj)
+                                       0x1610 (taille avant relaxe)
+ .debug_str     0x0000000000006ae0      0x160 freertos/libfreertos.a(FreeRTOS_util.c.obj)
+                                       0x113d (taille avant relaxe)
+ .debug_str     0x0000000000006c40       0xe2 freertos/libfreertos.a(list.c.obj)
+                                        0x3ca (taille avant relaxe)
+ .debug_str     0x0000000000006d22      0x1b6 freertos/freertos_kernel/portable/GCC/RI5CY-GAP9/libri5cy-gap9.a(port.c.obj)
+                                        0x478 (taille avant relaxe)
+ .debug_str     0x0000000000006ed8      0xcfc freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(pad.c.obj)
+                                       0x1ed3 (taille avant relaxe)
+
+.comment        0x0000000000000000       0x1a
+ .comment       0x0000000000000000       0x1a CMakeFiles/helloworld.dir/helloworld.c.obj
+                                         0x1b (taille avant relaxe)
+ .comment       0x000000000000001a       0x1b freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj)
+ .comment       0x000000000000001a       0x1b freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap_io.c.obj)
+ .comment       0x000000000000001a       0x1b freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+ .comment       0x000000000000001a       0x1b freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+ .comment       0x000000000000001a       0x1b freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(fc_event.c.obj)
+ .comment       0x000000000000001a       0x1b freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(ctors_dtors.c.obj)
+ .comment       0x000000000000001a       0x1b freertos/vendors/gwt/libs/libfreertos_libs.a(stdlib.c.obj)
+ .comment       0x000000000000001a       0x1b freertos/vendors/gwt/libs/libfreertos_libs.a(string.c.obj)
+ .comment       0x000000000000001a       0x1b freertos/pmsis/implem/libpmsis_implem.a(fll.c.obj)
+ .comment       0x000000000000001a       0x1b freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj)
+ .comment       0x000000000000001a       0x1b freertos/pmsis/implem/libpmsis_implem.a(maestro_irq.c.obj)
+ .comment       0x000000000000001a       0x1b freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+ .comment       0x000000000000001a       0x1b freertos/pmsis/implem/libpmsis_implem.a(pi_malloc.c.obj)
+ .comment       0x000000000000001a       0x1b freertos/pmsis/implem/libpmsis_implem.a(cluster.c.obj)
+ .comment       0x000000000000001a       0x1b freertos/pmsis/implem/libpmsis_implem.a(udma_core.c.obj)
+ .comment       0x000000000000001a       0x1b freertos/pmsis/implem/libpmsis_implem.a(alloc.c.obj)
+ .comment       0x000000000000001a       0x1b freertos/pmsis/bsp/libbsp.a(bsp.c.obj)
+ .comment       0x000000000000001a       0x1b freertos/vendors/gwt/libs/printf/libfreertos_printf.a(printf.c.obj)
+ .comment       0x000000000000001a       0x1b freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(device.c.obj)
+ .comment       0x000000000000001a       0x1b freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(pmsis_evt.c.obj)
+ .comment       0x000000000000001a       0x1b freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(event_kernel.c.obj)
+ .comment       0x000000000000001a       0x1b freertos/vendors/gwt/pmsis/backend/libfreertos_pmsis_backend.a(pmsis_backend_native_task_api.c.obj)
+ .comment       0x000000000000001a       0x1b freertos/libfreertos.a(queue.c.obj)
+ .comment       0x000000000000001a       0x1b freertos/libfreertos.a(tasks.c.obj)
+ .comment       0x000000000000001a       0x1b freertos/libfreertos.a(FreeRTOS_util.c.obj)
+ .comment       0x000000000000001a       0x1b freertos/libfreertos.a(list.c.obj)
+ .comment       0x000000000000001a       0x1b freertos/freertos_kernel/portable/GCC/RI5CY-GAP9/libri5cy-gap9.a(port.c.obj)
+ .comment       0x000000000000001a       0x1b freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(pad.c.obj)
+
+.Pulp_Chip.Info
+                0x0000000000000000       0x4e
+ .Pulp_Chip.Info
+                0x0000000000000000       0x4e CMakeFiles/helloworld.dir/helloworld.c.obj
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/vendors/gwt/gap9/libfreertos_gap9.a(startup_gap9.S.obj)
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/vendors/gwt/gap9/libfreertos_gap9.a(system_gap9.c.obj)
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap_io.c.obj)
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_iet.S.obj)
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/vendors/gwt/gap9/libfreertos_gap9.a(gap9_it.c.obj)
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer.c.obj)
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(timer_asm.S.obj)
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(asm_util.S.obj)
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(fc_event.c.obj)
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(ctors_dtors.c.obj)
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/vendors/gwt/libs/libfreertos_libs.a(stdlib.c.obj)
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/vendors/gwt/libs/libfreertos_libs.a(string.c.obj)
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/pmsis/implem/libpmsis_implem.a(fll.c.obj)
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/pmsis/implem/libpmsis_implem.a(maestro.c.obj)
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/pmsis/implem/libpmsis_implem.a(maestro_irq.c.obj)
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/pmsis/implem/libpmsis_implem.a(alloc_pool.c.obj)
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/pmsis/implem/libpmsis_implem.a(pi_malloc.c.obj)
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/pmsis/implem/libpmsis_implem.a(cluster-cc.S.obj)
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/pmsis/implem/libpmsis_implem.a(cluster.c.obj)
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/pmsis/implem/libpmsis_implem.a(cluster-pe-team.S.obj)
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/pmsis/implem/libpmsis_implem.a(udma_core.c.obj)
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/pmsis/implem/libpmsis_implem.a(alloc.c.obj)
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/pmsis/bsp/libbsp.a(bsp.c.obj)
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/vendors/gwt/libs/printf/libfreertos_printf.a(printf.c.obj)
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(device.c.obj)
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(pmsis_evt.c.obj)
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/vendors/gwt/pmsis/rtos/libpmsis_rtos.a(event_kernel.c.obj)
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/vendors/gwt/pmsis/backend/libfreertos_pmsis_backend.a(pmsis_backend_native_task_api.c.obj)
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/libfreertos.a(queue.c.obj)
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/libfreertos.a(tasks.c.obj)
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/libfreertos.a(FreeRTOS_util.c.obj)
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/libfreertos.a(list.c.obj)
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/freertos_kernel/portable/GCC/RI5CY-GAP9/libri5cy-gap9.a(port_asm.S.obj)
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/freertos_kernel/portable/GCC/RI5CY-GAP9/libri5cy-gap9.a(port.c.obj)
+ .Pulp_Chip.Info
+                0x000000000000004e        0x0 freertos/vendors/gwt/gap9/pmsis/libpmsis_implem_gap9.a(pad.c.obj)
+
+.debug_ranges   0x0000000000000000       0x28
+ .debug_ranges  0x0000000000000000       0x28 freertos/vendors/gwt/gap9/libfreertos_gap9.a(startup_gap9.S.obj)

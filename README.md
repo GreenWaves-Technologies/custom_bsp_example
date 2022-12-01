@@ -1,92 +1,148 @@
 # custom_bsp_helloworld
 
+## About
 
+The custom BSP helloworld is an example project of how to use your own BSP with
+Greenwaves SDK. It provides:
 
-## Getting started
+- A Custom BSP folder including fictional board and driver definition.
+- A basic compile-only helloworld application.
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+Please, check out GAP SDK documentation to learn more about how to use the custom
+BSP feature.
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+## Custom BSP composition
 
-## Add your files
+### Kconfig
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+This custom BSP provide a new board unknown to GAP SDK, it is defined in the following file:
+
+***custom_bsp/kconfig/board.kconfig***
+
+```kconfig
+config BOARD_CUSTOMER_BOARD
+    bool "Customer Board"
+    select CHIP_GAP9_V2_WLCSP
+    select HAS_APS256XXN_HARDWARE
+    select HAS_MX25U51245G_HARDWARE
+    select HAS_TLV320_HARDWARE
+    select HAS_MCP9808_HARDWARE
+```
+
+This fictional board assume it embbeds a GAP9 processor with four hardware peripherals :
+
+1. A RAM device : APS256XXN
+2. A Flash device : MX25U51245G
+3. An ADC device : TLV320
+4. A temperature sensor device : MCP9808
+
+Some of these drivers are known from the GAP SDK. The last one is a new one provided
+by the custom BSP in:
+
+***custom_bsp/kconfig/drivers.kconfig***
+
+```kconfig
+
+config HAS_MCP9808_HARDWARE
+    bool 
+    help
+        dummy temperature driver
+
+menu "Custom drivers"
+    config DRIVER_MCP9808
+        bool "MCP9808"
+        depends on HAS_MCP9808_HARDWARE
+        select DRIVER_I2C
+endmenu
 
 ```
-cd existing_repo
-git remote add origin https://gitlab.greenwaves-tech.com/gwt_sdk_developer/custom_bsp_helloworld.git
-git branch -M master
-git push -uf origin master
+
+CMake automatically manages the addition of these menus to those of the GAP SDK,
+simply by setting the custom BSP environment variable **GAP_CUSTOM_BSP** beforehand.
+
+For this project, execute the following command :
+
+```bash
+export GAP_CUSTOM_BSP=<PATH_TO_THIS_REPO>/custom_bsp
 ```
 
-## Integrate with your tools
+### Devicetree
 
-- [ ] [Set up project integrations](https://gitlab.greenwaves-tech.com/gwt_sdk_developer/custom_bsp_helloworld/-/settings/integrations)
+This custom BSP also include a devicetree definition for the board defined above.
+This definition is available here:
 
-## Collaborate with your team
+***custom_bsp/devicetree/customer_board.dts***
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+```dts
+/dts-v1/;
+/plugin/;
 
-## Test and Deploy
+/{
+    customer1
+    {
+        compatible   = "gwt, gap9";
+        target-path  = "/";
+        __overlay__
+        {
+            mcp9808: mcp9808
+            {
+                status = "okay";
+                sys
+                {
+                    device_name   = "mcp9808";
+                    driver_name   = "mcp9808";
+                    device_type   = "temperature";
+                    device_board  = "customer_board";
+                    device_driver = "bsp/drivers/mcp9808.h";
+                };
+                conf 
+                {
+                    i2c_itf   = <1>;
+                    bsp_open  = "NULL";
+                    bsp_close = "NULL";
+                    bsp_conf  = "NULL";
+                };
+                pads
+                {
+                    i2c_sda = "GAP9_PADMUX(42,0,-1)";
+                    i2c_scl = "GAP9_PADMUX(43,0,-1)";
+                };
+            };
+        };
+    };
+};
+```
 
-Use the built-in continuous integration in GitLab.
+This devicetree tells that the MCP9808 device is connected to the GAP9's I2C1
+interface via pads 42 and 43.
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+### BSP
+The custom BSP also provide a set of .c/.h files where to implement board related function.
+These files are available here :
 
-***
+***custom_bsp/bsp/boards/bsp_customer_board.c.h***
 
-# Editing this README
+Concerning peripherals, their driver can be stored here :
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
+***custom_bsp/bsp/drivers***
 
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+## How to run this project
 
-## Name
-Choose a self-explaining name for your project.
+1. Clone the last available verison of the GAP SDK
+2. Follow the GAP SDK installation process until its compilation
+3. Set the environnement variable **GAP_CUSTOM_BSP** to the path of this project's custom BSP.
+4. Go into this project's helloworld application.
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+```bash
+cd helloworld
+```
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+5. Configure CMake for this application.
+```bash
+cmake -B build
+```
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+6. Build and run the application 
+```bash
+cmake --build build -t run
+```

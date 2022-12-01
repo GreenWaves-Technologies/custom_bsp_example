@@ -1,0 +1,11 @@
+config HAS_MCP9808_HARDWARE
+    bool 
+    help
+        dummy temperature driver
+
+menu "Custom drivers"
+    config DRIVER_MCP9808
+        bool "MCP9808"
+        depends on HAS_MCP9808_HARDWARE
+        select DRIVER_I2C
+endmenu

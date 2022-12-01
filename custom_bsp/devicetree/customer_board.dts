@@ -1,0 +1,37 @@
+/dts-v1/;
+/plugin/;
+
+/{
+    customer1
+    {
+        compatible   = "gwt, gap9";
+        target-path  = "/";
+        __overlay__
+        {
+            mcp9808: mcp9808
+            {
+                status = "okay";
+                sys
+                {
+                    device_name   = "mcp9808";
+                    driver_name   = "mcp9808";
+                    device_type   = "temperature";
+                    device_board  = "customer_board";
+                    device_driver = "bsp/drivers/mcp9808.h";
+                };
+                conf 
+                {
+                    i2c_itf   = <1>;
+                    bsp_open  = "NULL";
+                    bsp_close = "NULL";
+                    bsp_conf  = "NULL";
+                };
+                pads
+                {
+                    i2c_sda = "GAP9_PADMUX(42,0,-1)";
+                    i2c_scl = "GAP9_PADMUX(43,0,-1)";
+                };
+            };
+        };
+    };
+};
