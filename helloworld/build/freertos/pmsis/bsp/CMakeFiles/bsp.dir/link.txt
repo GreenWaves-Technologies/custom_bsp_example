@@ -1,2 +1,0 @@
-/usr/lib/gap_riscv_toolchain/bin/riscv32-unknown-elf-ar qc libbsp.a CMakeFiles/bsp.dir/bsp/bsp.c.obj
-/usr/lib/gap_riscv_toolchain/bin/riscv32-unknown-elf-ranlib libbsp.a

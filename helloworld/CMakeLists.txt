@@ -20,6 +20,7 @@ set(TARGET_NAME "helloworld")
 set(TARGET_SRCS helloworld.c)
 
 set(CONFIG_GAP_SDK_HOME $ENV{GAP_SDK_HOME})
+set(GAP_CUSTOM_BSP ${CMAKE_CURRENT_SOURCE_DIR}/custom_bsp)
 include($ENV{GAP_SDK_HOME}/utils/cmake/setup.cmake)
 
 project(${TARGET_NAME} C ASM)

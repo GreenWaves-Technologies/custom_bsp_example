@@ -1,2 +1,0 @@
-/usr/lib/gap_riscv_toolchain/bin/riscv32-unknown-elf-ar qc libcustom_bsp.a CMakeFiles/custom_bsp.dir/home/mickael/workspace/custom_bsp_helloworld/custom_bsp/bsp/boards/bsp_customer_board.c.obj
-/usr/lib/gap_riscv_toolchain/bin/riscv32-unknown-elf-ranlib libcustom_bsp.a

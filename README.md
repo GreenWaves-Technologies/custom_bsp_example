@@ -2,14 +2,12 @@
 
 ## About
 
-The custom BSP helloworld is an example project of how to use your own BSP with
-Greenwaves SDK. It provides:
+The custom BSP helloworld is an example project of how to use your own BSP with Greenwaves SDK. It provides:
 
 - A Custom BSP folder including fictional board and driver definition.
 - A basic compile-only helloworld application.
 
-Please, check out GAP SDK documentation to learn more about how to use the custom
-BSP feature.
+Please, check out GAP SDK documentation to learn more about how to use the custom BSP feature.
 
 ## Custom BSP composition
 
@@ -57,14 +55,7 @@ endmenu
 
 ```
 
-CMake automatically manages the addition of these menus to those of the GAP SDK,
-simply by setting the custom BSP environment variable **GAP_CUSTOM_BSP** beforehand.
-
-For this project, execute the following command :
-
-```bash
-export GAP_CUSTOM_BSP=<PATH_TO_THIS_REPO>/custom_bsp
-```
+CMake automatically manages the addition of these menus to those of the GAP SDK, simply by setting the cmake variable **GAP_CUSTOM_BSP** beforehand in your application CMakeLists.txt file (already done in this project).
 
 ### Devicetree
 
