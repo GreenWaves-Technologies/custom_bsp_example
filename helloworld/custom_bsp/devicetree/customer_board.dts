@@ -32,6 +32,109 @@
                     i2c_scl = "GAP9_PADMUX(43,0,-1)";
                 };
             };
+            mx25u51245g: mx25u51245g
+            {
+                status = "okay";
+                sys
+                {
+                    device_name  = "mx25u51245g";
+                    driver_name  = "mx25u51245g";
+                    device_type  = "flash";
+                    device_board = "customer_board";
+                    device_driver = "bsp/flash/mx25u51245g.h";
+                };
+                conf
+                {
+                    spi_itf      = <0>;
+                    spi_cs       = <0>;
+                    size         = <0x04000000>;
+                    sector_size  = <4096>;
+                    xip_en       = <0>;
+                    baudrate     = <0>;
+                };
+                pads
+                {
+                    ck   = "GAP9_PADMUX(1, 0,-1)";
+                    dq0  = "GAP9_PADMUX(2, 0,-1)";
+                    dq1  = "GAP9_PADMUX(3, 0,-1)";
+                    dq2  = "GAP9_PADMUX(4, 0,-1)";
+                    dq3  = "GAP9_PADMUX(5, 0,-1)";
+                    dq4  = "GAP9_PADMUX(6, 0,-1)";
+                    dq5  = "GAP9_PADMUX(7, 0,-1)";
+                    dq6  = "GAP9_PADMUX(8, 0,-1)";
+                    dq7  = "GAP9_PADMUX(9, 0,-1)";
+                    sn0  = "GAP9_PADMUX(10,0,-1)";
+                    csn1 = "GAP9_PADMUX(11,0,-1)";
+                    rwds = "GAP9_PADMUX(12,0,-1)";
+                };
+            };
+            aps256xxn: aps256xxn
+            {
+                status = "okay";
+                sys
+                {
+                    device_name   = "aps256xxn";
+                    driver_name   = "aps256xxn";
+                    device_type   = "ram";
+                    device_board  = "customer_board";
+                    device_driver = "bsp/ram/aps256xxn.h";
+                };
+                conf
+                {
+                    spi_itf      = <0>;
+                    spi_cs       = <1>;
+                    ram_start    = <0>;
+                    ram_size     = <0x02000000>;
+                    baudrate     = <0>;
+                };
+                pads
+                {
+                    //ckn  = "GAP9_PADMUX(0, 0,-1)";
+                    ck   = "GAP9_PADMUX(1, 0,-1)";
+                    dq0  = "GAP9_PADMUX(2, 0,-1)";
+                    dq1  = "GAP9_PADMUX(3, 0,-1)";
+                    dq2  = "GAP9_PADMUX(4, 0,-1)";
+                    dq3  = "GAP9_PADMUX(5, 0,-1)";
+                    dq4  = "GAP9_PADMUX(6, 0,-1)";
+                    dq5  = "GAP9_PADMUX(7, 0,-1)";
+                    dq6  = "GAP9_PADMUX(8, 0,-1)";
+                    dq7  = "GAP9_PADMUX(9, 0,-1)";
+                    sn0  = "GAP9_PADMUX(10,0,-1)";
+                    csn1 = "GAP9_PADMUX(11,0,-1)";
+                    rwds = "GAP9_PADMUX(12,0,-1)";
+                };
+            };
+            tlv320: tlv320
+            {
+                status = "okay";
+                sys
+                {
+                    device_name   = "tlv320";
+                    driver_name   = "tlv320";
+                    device_type   = "adc";
+                    device_board  = "customer_board";
+                    device_driver = "bsp/audio/adc/tlv320.h";
+                };
+                conf
+                {
+                    i2c_itf = <1>;
+                    sai_itf = <2>;
+                    addr1_miso = <0>;
+                    addr0_sclk = <0>;
+                };
+                pads
+                {
+                    i2c_sda = "GAP9_PADMUX(42,0,-1)";
+                    i2c_scl = "GAP9_PADMUX(43,0,-1)";
+                    sai_sck = "GAP9_PADMUX(56,0,-1)";
+                    sai_ws  = "GAP9_PADMUX(57,0,-1)";
+                    sai_sdi = "GAP9_PADMUX(58,0,-1)";
+                    sai_sdo = "GAP9_PADMUX(59,0,-1)";
+                };
+                defs
+                {
+                };
+            };
         };
     };
 };
