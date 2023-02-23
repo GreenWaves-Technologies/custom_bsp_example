@@ -1,5 +1,5 @@
 //
-// Copyright (C) 2022 GreenWaves Technologies
+// Copyright (C) 2023 GreenWaves Technologies
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use fxl6408 file except in compliance with the License.
@@ -13,65 +13,72 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-
+// 
 /* PMSIS includes */
 #include "pmsis.h"
+#include "bsp/bsp.h"
 
-/* Task executed by cluster cores. */
-void cluster_helloworld(void *arg)
+pi_device_t* aps256xxn_device = NULL;
+pi_device_t* mx25u51245g_device = NULL;
+pi_device_t* mcp9808_device = NULL;
+
+int main()
 {
-    uint32_t core_id = pi_core_id(), cluster_id = pi_cluster_id();
-    printf("[%d %d] Hello World!\n", cluster_id, core_id);
-}
+    pi_err_t err = PI_OK;
 
-/* Cluster main entry, executed by core 0. */
-void cluster_delegate(void *arg)
-{
-    printf("Cluster master core entry\n");
-    /* Task dispatch to cluster cores. */
-    pi_cl_team_fork(pi_cl_cluster_nb_cores(), cluster_helloworld, arg);
-    printf("Cluster master core exit\n");
-}
-
-/* Program Entry. */
-int main(void)
-{
-    printf("\n\n\t *** PMSIS HelloWorld ***\n\n");
-    printf("Entering main controller\n");
-
-    uint32_t errors = 0;
-    uint32_t core_id = pi_core_id(), cluster_id = pi_cluster_id();
-    printf("[%d %d] Hello World!\n", cluster_id, core_id);
-
-    struct pi_device cluster_dev;
-    struct pi_cluster_conf cl_conf;
-
-    /* Init cluster configuration structure. */
-    pi_cluster_conf_init(&cl_conf);
-    cl_conf.id = 0;                /* Set cluster ID. */
-                       // Enable the special icache for the master core
-    cl_conf.icache_conf = PI_CLUSTER_MASTER_CORE_ICACHE_ENABLE |   
-                       // Enable the prefetch for all the cores, it's a 9bits mask (from bit 2 to bit 10), each bit correspond to 1 core
-                       PI_CLUSTER_ICACHE_PREFETCH_ENABLE |      
-                       // Enable the icache for all the cores
-                       PI_CLUSTER_ICACHE_ENABLE;
-
-    /* Configure & open cluster. */
-    pi_open_from_conf(&cluster_dev, &cl_conf);
-    if (pi_cluster_open(&cluster_dev))
+    err = pi_open(PI_FLASH_MX25U51245G, &mx25u51245g_device);
+    if(err) 
     {
-        printf("Cluster open failed !\n");
-        pmsis_exit(-1);
+        printf("MX25U51245G Open: Failed\n");
+        return err;
     }
+    printf("MX25U51245G Open: Success\n");
 
-    /* Prepare cluster task and send it to cluster. */
-    struct pi_cluster_task cl_task;
+    err = pi_open(PI_RAM_APS256XXN, &aps256xxn_device);
+    if(err) 
+    {
+        printf("APS256XXN Open: Failed\n");
+        return err;
+    }
+    printf("APS256XXN Open: Success\n");
 
-    pi_cluster_send_task_to_cl(&cluster_dev, pi_cluster_task(&cl_task, cluster_delegate, NULL));
+    err = pi_open(PI_TEMPERATURE_MCP9808, &mcp9808_device);
+    if(err)
+    {
+        printf("MCP9808 Open: Failed\n");
+        return err;
+    }
+    printf("MCP9808 Open: Success\n");
+    
+    printf("mx25u51245g_device @ : %p\n",mx25u51245g_device);
+    printf("aps256xxn_device @   : %p\n",aps256xxn_device);
+    printf("mcp9808_device @     : %p\n\n",mcp9808_device);
 
-    pi_cluster_close(&cluster_dev);
+    err = pi_close(PI_FLASH_MX25U51245G);
+    if(err) 
+    {
+        printf("MX25U51245G Close: Failed\n");
+        return err;
+    }
+    printf("MX25U51245G Close: Success\n");
 
-    printf("Test success !\n");
 
-    return errors;
+    err = pi_close(PI_RAM_APS256XXN);
+    if(err) 
+    {
+        printf("APS256XXN Close: Failed\n");
+        return err;
+    }
+    printf("APS256XXN Close: Success\n");
+
+
+    err = pi_close(PI_TEMPERATURE_MCP9808);
+    if(err)
+    {
+        printf("MCP9808 Close: Failed\n");
+        return err;
+    }
+    printf("MCP9808 Close: Success\n");
+
+    return err;
 }

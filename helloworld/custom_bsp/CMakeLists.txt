@@ -39,6 +39,7 @@ macro(setup_custom_bsp)
     if(CUSTOM_BSP_SRCS)
         add_library(custom_bsp STATIC ${CUSTOM_BSP_SRCS})
         target_include_directories(custom_bsp PUBLIC ${GAP_CUSTOM_BSP})
+        target_link_libraries(custom_bsp PRIVATE freertos) 
     endif()
 endmacro()
 

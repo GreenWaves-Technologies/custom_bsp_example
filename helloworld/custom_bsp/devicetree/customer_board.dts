@@ -8,6 +8,25 @@
         target-path  = "/";
         __overlay__
         {
+            jtag: jtag
+            {
+                status = "okay";
+                sys
+                {
+                    device_name   = "jtag";
+                    driver_name   = "jtag";
+                    device_type   = "io";
+                    device_board  = "gap9_evk_v2_0";
+                };
+                pads
+                {
+                    tck  = "GAP9_PADMUX(81,0,-1)";
+                    tdi  = "GAP9_PADMUX(82,0,-1)";
+                    tdo  = "GAP9_PADMUX(83,0,-1)";
+                    tms  = "GAP9_PADMUX(84,0,-1)";
+                    trst = "GAP9_PADMUX(85,0,-1)";
+                };
+            };
             mcp9808: mcp9808
             {
                 status = "okay";
@@ -102,37 +121,6 @@
                     sn0  = "GAP9_PADMUX(10,0,-1)";
                     csn1 = "GAP9_PADMUX(11,0,-1)";
                     rwds = "GAP9_PADMUX(12,0,-1)";
-                };
-            };
-            tlv320: tlv320
-            {
-                status = "okay";
-                sys
-                {
-                    device_name   = "tlv320";
-                    driver_name   = "tlv320";
-                    device_type   = "adc";
-                    device_board  = "customer_board";
-                    device_driver = "bsp/audio/adc/tlv320.h";
-                };
-                conf
-                {
-                    i2c_itf = <1>;
-                    sai_itf = <2>;
-                    addr1_miso = <0>;
-                    addr0_sclk = <0>;
-                };
-                pads
-                {
-                    i2c_sda = "GAP9_PADMUX(42,0,-1)";
-                    i2c_scl = "GAP9_PADMUX(43,0,-1)";
-                    sai_sck = "GAP9_PADMUX(56,0,-1)";
-                    sai_ws  = "GAP9_PADMUX(57,0,-1)";
-                    sai_sdi = "GAP9_PADMUX(58,0,-1)";
-                    sai_sdo = "GAP9_PADMUX(59,0,-1)";
-                };
-                defs
-                {
                 };
             };
         };
