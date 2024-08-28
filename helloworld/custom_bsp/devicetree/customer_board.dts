@@ -60,7 +60,7 @@
                     driver_name  = "mx25u51245g";
                     device_type  = "flash";
                     device_board = "customer_board";
-                    device_driver = "bsp/flash/mx25u51245g.h";
+                    device_driver = "mx25u51245g.h";
                 };
                 conf
                 {
@@ -96,7 +96,7 @@
                     driver_name   = "aps256xxn";
                     device_type   = "ram";
                     device_board  = "customer_board";
-                    device_driver = "bsp/ram/aps256xxn.h";
+                    device_driver = "aps256xxn.h";
                 };
                 conf
                 {

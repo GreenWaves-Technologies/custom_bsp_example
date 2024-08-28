@@ -25,21 +25,22 @@
 # ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 
-macro(setup_custom_bsp)
-    # Board's BSP
-    if(CONFIG_BOARD_CUSTOMER_BOARD)
-        list(APPEND CUSTOM_BSP_SRCS "${GAP_CUSTOM_BSP}/bsp/boards/bsp_customer_board.c")
-    endif()
 
-    if(CONFIG_DRIVER_MCP9808)
-        list(APPEND CUSTOM_BSP_SRCS "${GAP_CUSTOM_BSP}/bsp/drivers/mcp9808.c")
-    endif()
+set(ENV{CUSTOM_BSP_TARGET} pmsis)
 
-    # Create the custom BSP library only if its sources are being used.
-    if(CUSTOM_BSP_SRCS)
-        add_library(custom_bsp STATIC ${CUSTOM_BSP_SRCS})
-        target_include_directories(custom_bsp PUBLIC ${GAP_CUSTOM_BSP})
-        target_link_libraries(custom_bsp PRIVATE freertos) 
-    endif()
-endmacro()
+# Board's BSP
+if(CONFIG_BOARD_CUSTOMER_BOARD)
+    list(APPEND CUSTOM_BSP_SRCS "${GAP_CUSTOM_BSP}/bsp/boards/bsp_customer_board.c")
+endif()
 
+if(CONFIG_DRIVER_MCP9808)
+    list(APPEND CUSTOM_BSP_SRCS "${GAP_CUSTOM_BSP}/bsp/drivers/mcp9808.c")
+endif()
+
+# Create the custom BSP library only if its sources are being used.
+if(CUSTOM_BSP_SRCS)
+    target_sources($ENV{CUSTOM_BSP_TARGET} PRIVATE ${CUSTOM_BSP_SRCS})
+    target_include_directories($ENV{CUSTOM_BSP_TARGET} PUBLIC ${GAP_CUSTOM_BSP})
+    target_include_directories($ENV{CUSTOM_BSP_TARGET} PUBLIC ${GAP_CUSTOM_BSP}/bsp/boards)
+    target_include_directories($ENV{CUSTOM_BSP_TARGET} PUBLIC ${GAP_CUSTOM_BSP}/bsp/drivers)
+endif()

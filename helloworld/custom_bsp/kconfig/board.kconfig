@@ -1,7 +1,8 @@
 config BOARD_CUSTOMER_BOARD
     bool "Customer Board"
-    select CHIP_GAP9_V2_WLCSP
+    select HAS_MCP9808_HARDWARE
     select HAS_APS256XXN_HARDWARE
     select HAS_MX25U51245G_HARDWARE
     select HAS_TLV320_HARDWARE
     select HAS_MCP9808_HARDWARE
+

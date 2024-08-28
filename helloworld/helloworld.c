@@ -16,7 +16,6 @@
 // 
 /* PMSIS includes */
 #include "pmsis.h"
-#include "bsp/bsp.h"
 
 pi_device_t* aps256xxn_device = NULL;
 pi_device_t* mx25u51245g_device = NULL;
